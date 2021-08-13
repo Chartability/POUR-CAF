@@ -27,7 +27,7 @@ Chartability is an auditing tool that not only highlights failures for remediati
 ### Perceivable Failures
 User must be able to easily identify content using their senses: sight, sound, and touch.
 
-1. CRITICAL: Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1. Use WebAIM Contrast Tool or dropper contrast tool. 
+1. CRITICAL: Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1. Use WebAIM Contrast Tool or dropper contrast tool. [Link to Contrast Series notebooks on Observable](https://observablehq.com/@frankelavsky/chartability-contrast-series).
 2. CRITICAL: Text size too small. Text (any) must not be smaller than 12px in size.
 3. CRITICAL: Information only available visually (no screen reader/braille support). At a minimum test using JAWS + Internet Explorer 11+ and NVDA + Chrome on Windows, VoiceOver + Safari on Mac. Must be able to access DX information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers.
 4. Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either.
