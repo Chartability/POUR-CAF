@@ -27,12 +27,12 @@ Chartability is an auditing tool that not only highlights failures for remediati
 ### Perceivable Failures
 User must be able to easily identify content using their senses: sight, sound, and touch.
 
-1. CRITICAL: Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1. Use WebAIM Contrast Tool or dropper contrast tool. [Link to Contrast Series notebooks on Observable](https://observablehq.com/@frankelavsky/chartability-contrast-series).
+1. CRITICAL: Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1. Use WebAIM Contrast Tool or dropper contrast tool. [Link to Contrast and Color Series notebooks on Observable](https://observablehq.com/@frankelavsky/chartability-contrast-series).
 2. CRITICAL: Text size too small. Text (any) must not be smaller than 12px in size.
 3. CRITICAL: Information only available visually (no screen reader/braille support). At a minimum test using JAWS + Internet Explorer 11+ and NVDA + Chrome on Windows, VoiceOver + Safari on Mac. Must be able to access DX information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers.
-4. Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either.
-5. Color is the only channel for meaningful information. Categorical only: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required. 
-6. Meaningful elements cannot be discerned. Primary DX elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the DX). Elements must have at least 1px white space between on “stacked” DXs (like stacked bars or pie DXs where elements “touch”). Text (any) must not be obscured or overlapped by any other elements.
+4. Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either. [Link to Contrast and Color Series notebooks on Observable](https://observablehq.com/@frankelavsky/chartability-contrast-series).
+5. Color is the only channel for meaningful information. Categorical only: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required. [Link to Contrast and Color Series notebooks on Observable](https://observablehq.com/@frankelavsky/chartability-contrast-series).
+6. Meaningful elements cannot be discerned. Primary DX elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the DX). Elements must have at least 1px white space between on “stacked” DXs (like stacked bars or pie DXs where elements “touch”). Text (any) must not be obscured or overlapped by any other elements. [Link to the "Getting a Better Look" section of the article "Contrast and 'No Use of Color' in Scatterplots"](https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-scatterplots#getting-a-better-look).
 7. Inappropriate use of spacing. Too much or too little white space on DXs with intervals (like a bar DX with thin bars and large gaps or vice a versa).
 
 ### Operable Failures
@@ -63,7 +63,7 @@ Any information or data are presented without ambiguity, with clarity, and in a 
 The design is compliant with existing standards and works with the user’s compliant, assistive technologies of choice.
 
 1. Does not follow compliance standards. The DX must pass all relevant WCAG 2.1, Section 508, or equivalent requirements. (This is intended as an automatic failure until the DX can be fully evaluated.)
-2. Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a <button>, etc). DX must be semantically valid according to modern standards (if delivered on the web). Initial testing may be automated using any combination of: Axe-core, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
+2. Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). DX must be semantically valid according to modern standards (if delivered on the web). Initial testing may be automated using any combination of: Axe-core, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
 3. DX “works best” on only one browser, device, or operating system. DX access must not be isolated to one browser, device, software, or operating system. There must be a diversity of technological means to access the DX and its information.
 
 ### Compromising Failures
