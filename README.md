@@ -1,12 +1,14 @@
 # Chartability
-The inclusive data experience toolkit. To learn more about Chartability, check out the official [Chartability Website](https://chartability.fizz.studio/).
+Chartability is a methodology for ensuring that data visualizations, systems, and interfaces are accessible. Chartability is organized into principles with testable criteria and focused on creating an outcome that is an inclusive data experience for people with disabilities.
 
-This repository is intended to represent a basic document form of the [Chartability Audit Workbook](https://fizz.studio/files/chartability-worksheet) and the single-source of truth for the latest version of the toolkit. Changes made to this repository will eventually be reflected in the workbook. In the section The Chartability Toolkit below, the actual contents of the workbook can be found (with the name of each failure and its conditions under every principle).
+To learn more about Chartability, check out the official [Chartability Website](https://chartability.fizz.studio/).
+
+This repository is intended to represent a basic document form of the [Chartability Audit Workbook](https://fizz.studio/files/chartability-worksheet) and the single-source of truth for the latest version of the workbook. Changes made to this repository will eventually be reflected in the workbook. In the section The Chartability Workbook below, the actual contents of the workbook can be found (with the name of each failure and its conditions under every principle).
 
 ## Issues and Contributing
-Any issues related to this toolkit should be handled by this repository. Simply open a ticket! If you have any tickets related to the Chartability Website, please take them to [that repository](https://github.com/Chartability/site).
+Any issues related to this workbook should be handled by this repository. Simply open a ticket! If you have any tickets related to the Chartability Website, please take them to [that repository](https://github.com/Chartability/site).
 
-## The Chartability Toolkit
+## The Chartability Workbook
 This workbook is intended to serve as a lightweight, high-level audit for catching data experience* design failures related to accessibility. Note that CRITICAL tests in this workbook are not the “most important” tests (as every test is important in Chartability) but rather tests that are either: very common or expensive to remediate. For more on Chartability, see: https://chartability.fizz.studio/
 
 *A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system. 
@@ -22,7 +24,9 @@ Unlike a compliance audit (which determines adherence to regulatory guidelines),
 Chartability’s insistence on a scale (instead of a state) of accessibility requires that designers and creators consider their choices carefully: they must be willing to argue that lack of scope, time, or research or perhaps a unique consideration led to a given failure. No failure should be left unconsidered.
 
 ### Outcomes
-Chartability is an auditing tool that not only highlights failures for remediation, but also encourages healthy design critique and critical design discourse related to accessibility. Because excellence in accessibility is never a finished state, the outcome of a Chartability audit is less about arriving at accessibility and more about working towards an accessible experience.
+Chartability is a set of heuristic tests that not only highlights failures for remediation, but also encourages healthy design critique and critical design discourse related to accessibility. Because excellence in accessibility is never a finished state, the outcome of a Chartability audit is less about arriving at accessibility and more about working towards an accessible experience.
+
+A good audit is not about encouraging someone for being successful: a good audit finds failures and flaws.
 
 ### Perceivable Failures
 User must be able to easily identify content using their senses: sight, sound, and touch.
