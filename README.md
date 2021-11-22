@@ -1,5 +1,5 @@
 # Chartability
-Chartability is a methodology for ensuring that data visualizations, systems, and interfaces are accessible. Chartability is organized into principles with testable criteria and focused on creating an outcome that is an inclusive data experience for people with disabilities.
+Chartability is a set of heuristics (testable questions) for ensuring that data visualizations, systems, and interfaces are accessible. Chartability is organized into principles with testable criteria and focused on creating an outcome that is an inclusive data experience for people with disabilities.
 
 To learn more about Chartability, check out the official [Chartability Website](https://chartability.fizz.studio/).
 
