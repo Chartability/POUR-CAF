@@ -583,5 +583,18 @@
       "Limitations and Caveats": "This particular example comes from the author's numerous professional engagements with people with disabilities in product and application testing contexts. \"Build your own\" analytical experiences are really difficult from a cognitive perspective, especially if this intersects with other access needs.",
       "POUR Coding": "understandable, operable",
       "Additional Category Coding": "default, automatic, assistive, time-consuming, empowering"
+    },
+    {
+        "Test Name": "Visual presents seizure risk",
+        "Principle": "Perceivable",
+        "Critical": "Yes",
+        "Description": "DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.",
+        "Good Examples": "",
+        "Tools or Testing Method": "https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/",
+        "Knowledge Type": "Standard",
+        "Resources": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html",
+        "Limitations and Caveats": "We also acknowledge the work of South et al in their IEEE VIS poster where they used repeated scrolling techniques on what would otherwise be a static graphic to test for seizure risk with PEAT. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.",
+        "POUR Coding": "perceivable",
+        "Additional Category Coding": "neurological"
     }
    ]
