@@ -596,5 +596,18 @@
         "Limitations and Caveats": "We also acknowledge the work of South et al in their IEEE VIS poster where they used repeated scrolling techniques on what would otherwise be a static graphic to test for seizure risk with PEAT. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.",
         "POUR Coding": "perceivable",
         "Additional Category Coding": "neurological"
-    }
+    },
+    {
+        "Test Name": "Navigation and interaction is tedious",
+        "Principle": "Assistive",
+        "Critical": "Yes",
+        "Description": "Large blocks of repeated content cannot be skipped or the user is required to perform significant labor in order to navigate to information or perform a task. The number of interactions or time required to perform a single task should be measured and compared across modalities (mouse pointer versus sequential keyboard versus search versus voice, etc).",
+        "Good Examples": "",
+        "Tools or Testing Method": "",
+        "Knowledge Type": "Standard",
+        "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+        "Limitations and Caveats": "Generally, the number of interactions or time required to complete a task is a usability measurement. But when different assistive technologies and inclusive design patterns are considered, this becomes an accessibility measurement as well. There should not be an access gap for someone's time investment in a data experience solely based on interaction and navigation means. There are significant cognitive accessibility overlaps as working memory and cognitive load increases throughout long and tedious interaction patterns.",
+        "POUR Coding": "operable, understandable, robust",
+        "Additional Category Coding": "assistive, time-consuming, empowering"
+    },
    ]
