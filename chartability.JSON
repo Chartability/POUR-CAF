@@ -423,7 +423,7 @@
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
-      "Resources": "",
+      "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html",
       "Limitations and Caveats": "See: 1.4.4, 1.4.12",
       "POUR Coding": "perceivable, robust",
       "Additional Category Coding": "flexible, presentation, alternative, user-controlled, respectful, empowering"
