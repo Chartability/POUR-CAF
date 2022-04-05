@@ -403,14 +403,14 @@
       "Additional Category Coding": "flexible, operation, alternative, user-controlled, respectful, empowering"
     },
     {
-      "Test Name": "Zoom is not supported",
+      "Test Name": "Zoom and reflow are not supported",
       "Principle": "Flexible",
       "Critical": "No",
-      "Description": "DX space cannot be zoomed. It must be possible to zoom in and out of the DX space. Text, geometries, and all elements must change size appropriate to the type of zoom used.",
+      "Description": "DX space cannot be zoomed. It must be possible to zoom in and out of the DX space. Text, geometries, and all elements must change size appropriate to the type of zoom used. When zooming, content should reflow and not be cut off from view in two directions. Responsive design may need to consider re-arranging the display to ensure that no meaningful information or functionality is lost during reflow.",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
-      "Resources": "",
+      "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
       "Limitations and Caveats": "See: 1.4.4, 1.4.10, 1.4.12",
       "POUR Coding": "perceivable, operable, robust",
       "Additional Category Coding": "flexible, operation, presentation, alternative, user-controlled, respectful, empowering"
