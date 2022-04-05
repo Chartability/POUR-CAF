@@ -325,10 +325,10 @@
       "Additional Category Coding": "presentation"
     },
     {
-      "Test Name": "Keyboard focus indicator obscured or low contrast",
+      "Test Name": "Keyboard focus indicator missing, obscured, or low contrast",
       "Principle": "Operable",
       "Critical": "No",
-      "Description": "Keyboard focus indication is hard to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.",
+      "Description": "Visual keyboard focus indication is not present or is hard to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
