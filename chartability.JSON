@@ -533,15 +533,15 @@
       "Additional Category Coding": "alternative, transparent, empowering"
     },
     {
-      "Test Name": "Visually apparent features are not described/sonified",
+      "Test Name": "Visually apparent features and relationships are not described",
       "Principle": "Assistive",
       "Critical": "No",
-      "Description": "“Visually apparent” features are not described through text summaries or via sonification. Trends, clusters, patterns, outliers, or significant statistical findings that are considered “visually apparent” must be described through text. Optionally, these features may also be exposed using sonification.",
+      "Description": "Trends, clusters, patterns, outliers, or significant statistical semantics and findings that are considered “visually apparent” must be described through text at a minimum. Optionally, these features may also be exposed using sonification or tactile means or through other multi-sensory approaches.",
       "Good Examples": "https://www.highcharts.com/docs/accessibility/sonification",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
-      "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
-      "Limitations and Caveats": "",
+      "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+      "Limitations and Caveats": "This heuristic is actually a significantly unsolved problem when it comes to the building materials we have available to us. Not only are sonifications or tactile experiences often authored in parallel (but separate) from visualizations (and tend to be a 1 to 1 representation), but we lack the semantic tools to describe relationships between parts (such as outliers, comparisons, trends, etc). This issue is related to 1.3.3 \"Sensory Characteristics,\" but also 1.3.1 \"Info and Relationships,\" which Brennan Young engages in a conversation on ARIA's github: https://github.com/w3c/aria/issues/991#issuecomment-668493619",
       "POUR Coding": "perceivable, understandable",
       "Additional Category Coding": "sonified, multi-modal, sensory substitution, automatic, fluid, intelligent"
     },
