@@ -264,7 +264,7 @@ chartability.forEach(d => {
     const p = principles[d.Principle].heuristics
     p.push({"h3": `__${d["Test Name"]}__${(d["Critical"] === "Yes" ? " _(critical)_" : "")}` })
     p.push({"p": "<details><summary><i>(select to read more)</i></summary><div>"})
-    p.push({"p": `_This heuristic is based on ${d["Knowledge Type"]}_.`})
+    p.push({"p": `_This heuristic is synthesized from ${d["Knowledge Type"]}_.`})
     p.push({"p": `__Description__: ${d["Description"]}`})
     if (d["Good Examples"]) {
         p.push({"p": `__Good example__: [${d["Good Examples"]}](${d["Good Examples"]})`})
