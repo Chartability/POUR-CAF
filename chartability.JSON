@@ -364,15 +364,15 @@
       "Additional Category Coding": "respectful"
     },
     {
-      "Test Name": "Custom actions have no alternatives",
+      "Test Name": "Complex actions have no alternatives",
       "Principle": "Operable",
       "Critical": "No",
-      "Description": "Special actions (brushing/zooming/filtering) that use custom DX controls have no UI alternative. All custom DX controls (brushing, zooming, filtering, selecting, etc) must also be exposed for access by alternative UI controls. These controls must be clear and easy to use with a keyboard and screen reader.",
+      "Description": "Special actions (brushing/zooming/filtering/gesturing) that use custom or complex DX controls have no UI alternative. All complex DX controls must also be exposed for access by alternative UI controls. These controls must be clear and easy to use with a keyboard and screen reader.",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
       "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html",
-      "Limitations and Caveats": "All special actions need to have alternatives. Good design even considers alternatives that are not 1 to 1 translations. A 1 to 1 translation might be making a chart keyboard navigable and interactive to match a mouse hover/click. Alternative design for \"multiple ways\" might be also to provide a search function across the data or chart space in order to directly select elements.",
+      "Limitations and Caveats": "Both standards for 2.4.5 \"Multiple Ways,\" 2.5.4 \"Motion Actuation,\" and 2.5.1 \"Pointer Gestures\" all engage this issue. All special actions must have alternatives. Good design even considers alternatives that are not 1 to 1 translations. A 1 to 1 translation might be making a chart keyboard navigable and interactive to match a mouse hover/click. Alternative design for \"multiple ways\" might be also to provide a search function across the data or chart space in order to directly select elements.",
       "POUR Coding": "operable, robust",
       "Additional Category Coding": "alternative"
     },
