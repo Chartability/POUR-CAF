@@ -458,7 +458,7 @@
       "Test Name": "Information can only be reached through single process",
       "Principle": "Compromising",
       "Critical": "No",
-      "Description": "There is not more than one process available to reach the same information. If DX is contained within or participates in complex user interface flows, such as transitions between views or states, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).",
+      "Description": "There is not more than one process available to reach the same information. If DX is contained within or participates in complex user interface flows, such as transitions between views or states, interacting with filters, or moving between pages, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
