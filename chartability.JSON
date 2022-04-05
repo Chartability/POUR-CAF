@@ -610,4 +610,17 @@
         "POUR Coding": "operable, understandable, robust",
         "Additional Category Coding": "assistive, time-consuming, empowering"
     },
+    {
+        "Test Name": "Reading comprehension level innappropriate",
+        "Principle": "Understandable",
+        "Critical": "Yes",
+        "Description": "All text (and alternative text) provided should target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.",
+        "Good Examples": "",
+        "Tools or Testing Method": "https://hemingwayapp.com/",
+        "Knowledge Type": "Standard",
+        "Resources": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html",
+        "Limitations and Caveats": "Special circumstances may require complex terminology, but these should be explained using a reading grade level of 9 or lower.",
+        "POUR Coding": "understandable",
+        "Additional Category Coding": "informative, simplified, plain"
+    }
    ]
