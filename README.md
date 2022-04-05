@@ -203,6 +203,23 @@ _This heuristic is based on knowledge from research_.
 
 <br>
 
+### __Visual presents seizure risk__ _(critical)_
+
+
+DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
+
+
+__Example tools or testing method__: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/
+
+
+_This heuristic is based on knowledge from standards_.
+
+
+<details><summary><i>Notes (select to expand)</i></summary><p>We also acknowledge the work of South et al in their IEEE VIS poster where they used repeated scrolling techniques on what would otherwise be a static graphic to test for seizure risk with PEAT. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.</p></details>
+
+
+<br>
+
 ### __Color is used alone to communicate meaning__
 
 
@@ -270,23 +287,6 @@ _This heuristic is based on knowledge from community practices_.
 
 
 <details><summary><i>Notes (select to expand)</i></summary><p>While Headings and Labels are standards (2.4.6 and 2.4.10) and are considered important for Perceivable reasons, "white space" specifically is a lower-level consideration that is massively important in effective, accessible data visualization. There is a research gap in this space. Another community article: https://medium.com/nightingale/how-to-use-whitespace-the-punctuation-between-visual-elements-5ff449709759</p></details>
-
-
-<br>
-
-### __Visual presents seizure risk__ _(critical)_
-
-
-DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
-
-
-__Example tools or testing method__: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/
-
-
-_This heuristic is based on knowledge from standards_.
-
-
-<details><summary><i>Notes (select to expand)</i></summary><p>We also acknowledge the work of South et al in their IEEE VIS poster where they used repeated scrolling techniques on what would otherwise be a static graphic to test for seizure risk with PEAT. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.</p></details>
 
 
 <br>
