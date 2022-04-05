@@ -152,10 +152,10 @@ User must be able to easily identify content using their senses: sight, sound, a
 ### __Low contrast__ _(critical)_
 
 
-Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1.
-
-
 _This heuristic is based on standards_.
+
+
+Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples](https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples)
@@ -175,10 +175,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 ### __Only visual__ _(critical)_
 
 
-Information is only available visually (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all DX information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.
-
-
 _This heuristic is based on standards_.
+
+
+Information is only available visually (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all DX information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.
 
 
 __Good example__: [https://youtu.be/w6ntxLG6MLQ](https://youtu.be/w6ntxLG6MLQ)
@@ -198,10 +198,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives](
 ### __Small text size__ _(critical)_
 
 
-Text size too small. Text (any) must not be smaller than 12px in size.
-
-
 _This heuristic is based on research_.
+
+
+Text size too small. Text (any) must not be smaller than 12px in size.
 
 
 __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.5.8)
@@ -215,10 +215,10 @@ __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.
 ### __Visual presents seizure risk__ _(critical)_
 
 
-DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
-
-
 _This heuristic is based on standards_.
+
+
+DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
 
 
 __Example tools or testing method__: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/
@@ -235,10 +235,10 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html](ht
 ### __Color is used alone to communicate meaning__
 
 
-Color is the only channel for meaningful information. Categorical only: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required.
-
-
 _This heuristic is based on standards_.
+
+
+Color is the only channel for meaningful information. Categorical only: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization](https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization)
@@ -255,10 +255,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.ht
 ### __Meaningful elements are obscured__
 
 
-Primary DX elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the DX). Elements must have at least 1px white space between on “stacked” DXs (like stacked bars or pie DXs where elements “touch”). Text (any) must not be obscured or overlapped by any other elements.
-
-
 _This heuristic is based on standards_.
+
+
+Primary DX elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the DX). Elements must have at least 1px white space between on “stacked” DXs (like stacked bars or pie DXs where elements “touch”). Text (any) must not be obscured or overlapped by any other elements.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-scatterplots#getting-a-better-look](https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-scatterplots#getting-a-better-look)
@@ -275,10 +275,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/distinguishable
 ### __Not CVD-friendly__
 
 
-Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either.
-
-
 _This heuristic is based on research_.
+
+
+Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either.
 
 
 __Good example__: [https://blog.datawrapper.de/colorblindness-part1/](https://blog.datawrapper.de/colorblindness-part1/)
@@ -298,10 +298,10 @@ __Cited research__: [https://doi.org/10.1007/s10209-021-00816-0](https://doi.org
 ### __Spacing is inappropriate__
 
 
-Inappropriate use of spacing. Too much or too little white space on DXs with intervals (like a bar DX with thin bars and large gaps or vice a versa).
-
-
 _This heuristic is based on community practices_.
+
+
+Inappropriate use of spacing. Too much or too little white space on DXs with intervals (like a bar DX with thin bars and large gaps or vice a versa).
 
 
 __Good example__: [https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9](https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9)
@@ -323,10 +323,10 @@ All controls must be error-tolerant, discoverable, and multi-modal (not just mou
 ### __Interaction output only has one input__ _(critical)_
 
 
-DX interactivity is not available through multiple means. If DX is interactive it must also be made interactive to keyboard only and screen reader users. Test navigating to DX with keyboard, using tab and arrow keys. If DX elements are interactive with a mouse, they must also be interactive with a keyboard. Focusing should mirror hovering, selecting (enter or spacebar) should mirror clicks.
-
-
 _This heuristic is based on standards_.
+
+
+DX interactivity is not available through multiple means. If DX is interactive it must also be made interactive to keyboard only and screen reader users. Test navigating to DX with keyboard, using tab and arrow keys. If DX elements are interactive with a mouse, they must also be interactive with a keyboard. Focusing should mirror hovering, selecting (enter or spacebar) should mirror clicks.
 
 
 __Good example__: [https://progressiveaccess.com/chemistry/](https://progressiveaccess.com/chemistry/)
@@ -343,10 +343,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exc
 ### __No interaction cues or instructions__ _(critical)_
 
 
-Instructions not provided for interaction If DX has any interactive capabilities at all, it must be explained somewhere for users to understand. All keyboard controls must also be explained as well.
-
-
 _This heuristic is based on standards_.
+
+
+Instructions not provided for interaction If DX has any interactive capabilities at all, it must be explained somewhere for users to understand. All keyboard controls must also be explained as well.
 
 
 __Good example__: [https://sf.gov/resource/2021/covid-19-data-and-reports](https://sf.gov/resource/2021/covid-19-data-and-reports)
@@ -363,10 +363,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instr
 ### __Controls override AT controls__ _(critical)_
 
 
-Custom keyboard controls override screen reader settings. Any custom key controls must only apply when the DX or elements have focus (no page or app overrides).
-
-
 _This heuristic is based on standards_.
+
+
+Custom keyboard controls override screen reader settings. Any custom key controls must only apply when the DX or elements have focus (no page or app overrides).
 
 
 __Good example__: [https://sf.gov/resource/2021/covid-19-data-and-reports](https://sf.gov/resource/2021/covid-19-data-and-reports)
@@ -383,10 +383,10 @@ __Cited standard__: [https://www.w3.org/TR/WCAG21/#character-key-shortcuts](http
 ### __Low contrast on iteractive elements__
 
 
-Contrast is low on interactive elements. All interactive elements must have at least 3:1 contrast against background. Use WebAIM Contrast Tool or dropper tool. Change in hover/focus and click/select states must not use color alone (must change stroke thickness, dash pattern, or size.)
-
-
 _This heuristic is based on standards_.
+
+
+Contrast is low on interactive elements. All interactive elements must have at least 3:1 contrast against background. Use WebAIM Contrast Tool or dropper tool. Change in hover/focus and click/select states must not use color alone (must change stroke thickness, dash pattern, or size.)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
@@ -400,10 +400,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 ### __Keyboard focus indicator missing, obscured, or low contrast__
 
 
-Visual keyboard focus indication is not present or is hard to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.
-
-
 _This heuristic is based on standards_.
+
+
+Visual keyboard focus indication is not present or is hard to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html)
@@ -417,10 +417,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/focus-appearanc
 ### __Inappropriate tab stops__
 
 
-Only interactive elements (that represent buttons, links, or selectable features) have a tab stop. Every DX element must NOT have its own tab stop unless the tabs are programmatically revealed (such as having a single tab stop at the root of a chart and then a way to enter further layers or sections of the chart using keyboard controls). At least one tab stop should be provided if a data table succeeds the DX and is interactive, otherwise a table should not have a tab stop.
-
-
 _This heuristic is based on standards_.
+
+
+Only interactive elements (that represent buttons, links, or selectable features) have a tab stop. Every DX element must NOT have its own tab stop unless the tabs are programmatically revealed (such as having a single tab stop at the root of a chart and then a way to enter further layers or sections of the chart using keyboard controls). At least one tab stop should be provided if a data table succeeds the DX and is interactive, otherwise a table should not have a tab stop.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html)
@@ -434,10 +434,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/focus-order.htm
 ### __Complex actions have no alternatives__
 
 
-Special actions (brushing/zooming/filtering/gesturing) that use custom or complex DX controls have no UI alternative. All complex DX controls must also be exposed for access by alternative UI controls. These controls must be clear and easy to use with a keyboard and screen reader.
-
-
 _This heuristic is based on standards_.
+
+
+Special actions (brushing/zooming/filtering/gesturing) that use custom or complex DX controls have no UI alternative. All complex DX controls must also be exposed for access by alternative UI controls. These controls must be clear and easy to use with a keyboard and screen reader.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html](https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html)
@@ -451,10 +451,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 ### __Target pointer interaction size is too small__
 
 
-Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.
-
-
 _This heuristic is based on standards_.
+
+
+Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
@@ -473,10 +473,10 @@ Any information or data are presented without ambiguity, with clarity, and in a 
 ### __No explanation for purpose or for how to read__ _(critical)_
 
 
-DX should explain its purpose and how to read, use, and interpret it.
-
-
 _This heuristic is based on research_.
+
+
+DX should explain its purpose and how to read, use, and interpret it.
 
 
 __Cited research__: [https://doi.org/10.1109/TVCG.2019.2917689](https://doi.org/10.1109/TVCG.2019.2917689)
@@ -490,10 +490,10 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2019.2917689](https://doi.org/
 ### __No title, summary, or caption__ _(critical)_
 
 
-No title, summary, context, or caption is provided. A title, summary, context, or caption must be provided.
-
-
 _This heuristic is based on research_.
+
+
+No title, summary, context, or caption is provided. A title, summary, context, or caption must be provided.
 
 
 __Cited research__: [https://doi.org/10.1109/TVCG.2015.2467732](https://doi.org/10.1109/TVCG.2015.2467732)
@@ -507,10 +507,10 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2015.2467732](https://doi.org/
 ### __Reading level inappropriate__ _(critical)_
 
 
-All text (and alternative text) provided should target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.
-
-
 _This heuristic is based on standards_.
+
+
+All text (and alternative text) provided should target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.
 
 
 __Example tools or testing method__: https://hemingwayapp.com/
@@ -527,10 +527,10 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-suppleme
 ### __Interactive context is not clear__
 
 
-If DX interacts with surroundings, this purpose and function is not clearly communicated. If DX can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text.
-
-
 _This heuristic is based on standards_.
+
+
+If DX interacts with surroundings, this purpose and function is not clearly communicated. If DX can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
@@ -544,10 +544,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages
 ### __Information complexity is inappropriate__
 
 
-Information complexity inappropriate to the task or goal of the visual. DX must not have more than one Y or X axis without first presenting two DX separately. DX must not encode along a third spatial dimension (z axis) unless the data itself is 3D (sensory, modeling, etc). DX should not contain more than 5 data categories.
-
-
 _This heuristic is based on research_.
+
+
+Information complexity inappropriate to the task or goal of the visual. DX must not have more than one Y or X axis without first presenting two DX separately. DX must not encode along a third spatial dimension (z axis) unless the data itself is 3D (sensory, modeling, etc). DX should not contain more than 5 data categories.
 
 
 __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf](https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf)
@@ -561,10 +561,10 @@ __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf]
 ### __Changes are not easy to follow__
 
 
-DX changes are not easy to follow. If DX’s data change is meaningful, it must employ animations for object constancy (no faster than 200ms or longer than 2s). Changes to state must be announced to screen reader users.
-
-
 _This heuristic is based on research_.
+
+
+DX changes are not easy to follow. If DX’s data change is meaningful, it must employ animations for object constancy (no faster than 200ms or longer than 2s). Changes to state must be announced to screen reader users.
 
 
 __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.org/10.1007/978-1-4842-1928-7_2)
@@ -578,10 +578,10 @@ __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.or
 ### __Metrics and variables are undefined__
 
 
-Metrics or variables are misleading or undefined. DX must not lie and data (and source) must be defined. Metadata, metrics, calculations, and variables must be defined.
-
-
 _This heuristic is based on research_.
+
+
+Metrics or variables are misleading or undefined. DX must not lie and data (and source) must be defined. Metadata, metrics, calculations, and variables must be defined.
 
 
 __Good example__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books](https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books)
@@ -598,10 +598,10 @@ __Cited research__: [NCAM, Diagram Center](NCAM, Diagram Center)
 ### __Statistical uncertainty isn't clearly communicated__
 
 
-Statistical confidence/uncertainty is not clearly and unambiguously communicated. If any statistical confidence interval exists, it must use clear conventions and provide textual explanation.
-
-
 _This heuristic is based on research_.
+
+
+Statistical confidence/uncertainty is not clearly and unambiguously communicated. If any statistical confidence interval exists, it must use clear conventions and provide textual explanation.
 
 
 __Good example__: [https://doi.org/10.1145/3173574.3173718](https://doi.org/10.1145/3173574.3173718)
@@ -618,10 +618,10 @@ __Cited research__: [https://doi.org/10.1145/3173574.3173718](https://doi.org/10
 ### __Axis labels are unclear or missing__
 
 
-Axis labels are not present or unclear. Axis is truncated without a clear label. In rare cases axes may be removed (if adequate text explanation or annotation is provided). Otherwise, axis should be present and clearly labeled. Axis labels may be abbreviated but with a clear convention. Axis may only be truncated if truncation is called out with a label.
-
-
 _This heuristic is based on community practices_.
+
+
+Axis labels are not present or unclear. Axis is truncated without a clear label. In rare cases axes may be removed (if adequate text explanation or annotation is provided). Otherwise, axis should be present and clearly labeled. Axis labels may be abbreviated but with a clear convention. Axis may only be truncated if truncation is called out with a label.
 
 
 __Cited community practice__: [https://www.yellowfinbi.com/best-practice-guide/charts-visualizations/chart-axis-best-practices](https://www.yellowfinbi.com/best-practice-guide/charts-visualizations/chart-axis-best-practices)
@@ -635,10 +635,10 @@ __Cited community practice__: [https://www.yellowfinbi.com/best-practice-guide/c
 ### __Controls are inappropriate__
 
 
-Inappropriate controls are provided for the task. Controls must not be irrelevant to the message, question, or task of the DX. DX scope and functionality must not be too broad. Fail if the DX can be subdivided or have irrelevant functionality removed.
-
-
 _This heuristic is based on community practices_.
+
+
+Inappropriate controls are provided for the task. Controls must not be irrelevant to the message, question, or task of the DX. DX scope and functionality must not be too broad. Fail if the DX can be subdivided or have irrelevant functionality removed.
 
 
 __Cited community practice__: [https://inclusivedesignprinciples.org/#add-value](https://inclusivedesignprinciples.org/#add-value)
@@ -657,10 +657,10 @@ The design is compliant with existing standards and works with the user’s comp
 ### __Does not conform to standards__
 
 
-Does not follow compliance standards. The DX must pass all relevant WCAG 2.1, Section 508, or equivalent requirements. (This is intended as an automatic failure until the DX can be fully evaluated.)
-
-
 _This heuristic is based on standards_.
+
+
+Does not follow compliance standards. The DX must pass all relevant WCAG 2.1, Section 508, or equivalent requirements. (This is intended as an automatic failure until the DX can be fully evaluated.)
 
 
 __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html)
@@ -674,10 +674,10 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-pa
 ### __Semantically invalid__
 
 
-Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). DX must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
-
-
 _This heuristic is based on standards_.
+
+
+Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). DX must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
 
 
 __Example tools or testing method__: https://www.deque.com/axe/devtools/
@@ -691,10 +691,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/name-role-value
 ### __Fragile technology support__
 
 
-DX “works best” on only one browser, device, or operating system. DX access must not be isolated to one browser, device, software, or operating system. There must be a diversity of technological means to access the DX and its information.
-
-
 _This heuristic is based on standards_.
+
+
+DX “works best” on only one browser, device, or operating system. DX access must not be isolated to one browser, device, software, or operating system. There must be a diversity of technological means to access the DX and its information.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html](https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html)
@@ -710,10 +710,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/concurrent-inpu
 ### __No table__ _(critical)_
 
 
-A table is not provided that the DX is based on. A table must be provided that contains a human-readable version of the data the DX is based on. This may be excluded if the DX title, summary, context, or annotations are sufficient at conveying all relevant information contained in the DX.
-
-
 _This heuristic is based on research_.
+
+
+A table is not provided that the DX is based on. A table must be provided that contains a human-readable version of the data the DX is based on. This may be excluded if the DX title, summary, context, or annotations are sufficient at conveying all relevant information contained in the DX.
 
 
 __Good example__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books](https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books)
@@ -730,10 +730,10 @@ __Cited research__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-p
 ### __Information can only be reached through single process__
 
 
-There is not more than one process available to reach the same information. If DX is contained within or participates in complex user interface flows, such as transitions between views or states, interacting with filters, or moving between pages, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).
-
-
 _This heuristic is based on standards_.
+
+
+There is not more than one process available to reach the same information. If DX is contained within or participates in complex user interface flows, such as transitions between views or states, interacting with filters, or moving between pages, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html](https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html)
@@ -744,10 +744,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 ### __Location and history is clear__
 
 
-Current location in a system is not easy to understand or return to. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with bread-crumbs to guide their path as well as the ability to save, reload, and navigate history.
-
-
 _This heuristic is based on standards_.
+
+
+Current location in a system is not easy to understand or return to. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with bread-crumbs to guide their path as well as the ability to save, reload, and navigate history.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](https://www.w3.org/WAI/WCAG21/Understanding/location.html)
@@ -758,10 +758,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](
 ### __Interactions are not forgiveable__
 
 
-Interactions and operations are not forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to undo or redo their actions.
-
-
 _This heuristic is based on research_.
+
+
+Interactions and operations are not forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to undo or redo their actions.
 
 
 __Cited research__: [https://doi.org/10.1080/00140139408964958](https://doi.org/10.1080/00140139408964958)
@@ -775,10 +775,10 @@ __Cited research__: [https://doi.org/10.1080/00140139408964958](https://doi.org/
 ### __Information cannot be navigated according to narrative or structure__
 
 
-DX cannot be navigated according to its data or narrative structure. The title, description, annotations, and then lower level data structures should be navigable and in that order. DX data that contains sub-grouping (like a stacked bar DX) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).
-
-
 _This heuristic is based on research_.
+
+
+DX cannot be navigated according to its data or narrative structure. The title, description, annotations, and then lower level data structures should be navigable and in that order. DX data that contains sub-grouping (like a stacked bar DX) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).
 
 
 __Cited research__: [https://dl.acm.org/doi/abs/10.1145/2745555.2746667](https://dl.acm.org/doi/abs/10.1145/2745555.2746667)
@@ -792,10 +792,10 @@ __Cited research__: [https://dl.acm.org/doi/abs/10.1145/2745555.2746667](https:/
 ### __Table/data is static__
 
 
-Provided table is not downloadable, filterable, or sortable. If a table is provided, it must be easily downloadable or it must contain robust filter and sorting capabilities.
-
-
 _This heuristic is based on community practices_.
+
+
+Provided table is not downloadable, filterable, or sortable. If a table is provided, it must be easily downloadable or it must contain robust filter and sorting capabilities.
 
 
 __Cited community practice__: [https://inclusive-components.design/data-tables/](https://inclusive-components.design/data-tables/)
@@ -809,10 +809,10 @@ __Cited community practice__: [https://inclusive-components.design/data-tables/]
 ### __State is not easy to share and reproduce__
 
 
-DX state is not easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share without instructions (such as with a single link, file, or saved state).
-
-
 _This heuristic is based on community practices_.
+
+
+DX state is not easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share without instructions (such as with a single link, file, or saved state).
 
 
 __Good example__: [https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters](https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters)
@@ -834,10 +834,10 @@ __Cited community practice__: [https://key2consulting.com/share-power-bi-reports
 ### __Data density is inappropriate__ _(critical)_
 
 
-Data is not presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, DX must be aggregated to a higher level with less elements, or DX must be divided into smaller DXs with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
-
-
 _This heuristic is based on research_.
+
+
+Data is not presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, DX must be aggregated to a higher level with less elements, or DX must be divided into smaller DXs with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
 
 
 __Good example__: [https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
@@ -854,10 +854,10 @@ __Cited research__: [https://vita.had.co.nz/papers/bigvis.pdf](https://vita.had.
 ### __Navigation and interaction is tedious__ _(critical)_
 
 
-Large blocks of repeated content cannot be skipped or the user is required to perform significant labor in order to navigate to information or perform a task. The number of interactions or time required to perform a single task should be measured and compared across modalities (mouse pointer versus sequential keyboard versus search versus voice, etc).
-
-
 _This heuristic is based on standards_.
+
+
+Large blocks of repeated content cannot be skipped or the user is required to perform significant labor in order to navigate to information or perform a task. The number of interactions or time required to perform a single task should be measured and compared across modalities (mouse pointer versus sequential keyboard versus search versus voice, etc).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks)
@@ -871,10 +871,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks](
 ### __Visually apparent features and relationships are not described__
 
 
-Trends, clusters, patterns, outliers, or significant statistical semantics and findings that are considered “visually apparent” must be described through text at a minimum. Optionally, these features may also be exposed using sonification or tactile means or through other multi-sensory approaches.
-
-
 _This heuristic is based on standards_.
+
+
+Trends, clusters, patterns, outliers, or significant statistical semantics and findings that are considered “visually apparent” must be described through text at a minimum. Optionally, these features may also be exposed using sonification or tactile means or through other multi-sensory approaches.
 
 
 __Good example__: [https://www.highcharts.com/docs/accessibility/sonification](https://www.highcharts.com/docs/accessibility/sonification)
@@ -891,10 +891,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/info-and-relati
 ### __Data in text is not human-readable__
 
 
-Data is not formatted to be human-readable. All textual information displayed (in data labels, annotations, axes, tables, legends, etc) must be formatted to an understandable level of content (ie “human readable”). These formats must also be made into versions that can be read and parsed comfortably by screen readers. (For example: 6500000000 should be formatted to 6.5b visually and to “six point five billion” when used in screen reader labels and alt text.)
-
-
 _This heuristic is based on standards_.
+
+
+Data is not formatted to be human-readable. All textual information displayed (in data labels, annotations, axes, tables, legends, etc) must be formatted to an understandable level of content (ie “human readable”). These formats must also be made into versions that can be read and parsed comfortably by screen readers. (For example: 6500000000 should be formatted to 6.5b visually and to “six point five billion” when used in screen reader labels and alt text.)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html)
@@ -905,10 +905,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.h
 ### __Space does not handle extremes__
 
 
-Use of space inappropriately handles extreme difference or similarity in the data. Both extreme statistical differences and similarities can produce unreadable DXs. If DX elements are squished into margins due to outliers or together by too much similarity, this fails. DX must automatically handle these issues or else it must be made clear to the user through annotations what is happening. If data is dynamic or producing automatic annotations is not possible, then DX must provide a way for the user to sort, divide, or filter the DX space on their own.
-
-
 _This heuristic is based on community practices_.
+
+
+Use of space inappropriately handles extreme difference or similarity in the data. Both extreme statistical differences and similarities can produce unreadable DXs. If DX elements are squished into margins due to outliers or together by too much similarity, this fails. DX must automatically handle these issues or else it must be made clear to the user through annotations what is happening. If data is dynamic or producing automatic annotations is not possible, then DX must provide a way for the user to sort, divide, or filter the DX space on their own.
 
 
 __Good example__: [https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9](https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9)
@@ -922,10 +922,10 @@ __Good example__: [https://towardsdatascience.com/data-visualisation-principles-
 ### __No default "build-your-own" provided__
 
 
-If DX must be built by the user, no default, opinionated state is given as a starting example. If the user is required to craft their own DX (say by combining variables in an analytic environment), a default, opinionated view of the data must be provided as a starting point.
-
-
 _This heuristic is based on community practices_.
+
+
+If DX must be built by the user, no default, opinionated state is given as a starting example. If the user is required to craft their own DX (say by combining variables in an analytic environment), a default, opinionated view of the data must be provided as a starting point.
 
 
 <details><summary><i>Notes (select to expand)</i></summary><p>This particular example comes from the author's numerous professional engagements with people with disabilities in product and application testing contexts. "Build your own" analytical experiences are really difficult from a cognitive perspective, especially if this intersects with other access needs.</p></details>
@@ -941,10 +941,10 @@ _This heuristic is based on community practices_.
 ### __User style change not respected__ _(critical)_
 
 
-Styling changed by the user is not respected. DX must not interfere with or override styling changes made by the user (such as importing a custom style sheet for use in an HTML application or web site).
-
-
 _This heuristic is based on standards_.
+
+
+Styling changed by the user is not respected. DX must not interfere with or override styling changes made by the user (such as importing a custom style sheet for use in an HTML application or web site).
 
 
 <details><summary><i>Notes (select to expand)</i></summary><p>See: 1.4.4, 1.4.8, 1.4.10, 1.4.12, 2.2.1, 2.2.2, 2.2.4, 2.3.3</p></details>
@@ -955,10 +955,10 @@ _This heuristic is based on standards_.
 ### __Long animations cannot be controlled__
 
 
-Longer, video-style or explanatory animations cannot be paused, stopped, and started over. Animations lasting more than 2 seconds or any looping animations must be able to be paused or stopped. Animations used to communicate transitions in the data that last more than 2 seconds must be provide a way for the user to start over.
-
-
 _This heuristic is based on standards_.
+
+
+Longer, video-style or explanatory animations cannot be paused, stopped, and started over. Animations lasting more than 2 seconds or any looping animations must be able to be paused or stopped. Animations used to communicate transitions in the data that last more than 2 seconds must be provide a way for the user to start over.
 
 
 __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https://inclusivedesignprinciples.org/#give-control)
@@ -972,10 +972,10 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 ### __Scrolling experiences cannot be altered__
 
 
-Scrolling experiences cannot be adjusted or opted out of. Infinite scrolling, parallax scrolling, and “scrollytelling” experiences must come with the ability to be turned off or used optionally, with an option like “load more” or “next” in its place for keyboard only users.
-
-
 _This heuristic is based on standards_.
+
+
+Scrolling experiences cannot be adjusted or opted out of. Infinite scrolling, parallax scrolling, and “scrollytelling” experiences must come with the ability to be turned off or used optionally, with an option like “load more” or “next” in its place for keyboard only users.
 
 
 __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https://inclusivedesignprinciples.org/#give-control)
@@ -989,10 +989,10 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 ### __Zoom and reflow are not supported__
 
 
-DX space cannot be zoomed. It must be possible to zoom in and out of the DX space. Text, geometries, and all elements must change size appropriate to the type of zoom used. When zooming, content should reflow and not be cut off from view in two directions. Responsive design may need to consider re-arranging the display to ensure that no meaningful information or functionality is lost during reflow.
-
-
 _This heuristic is based on standards_.
+
+
+DX space cannot be zoomed. It must be possible to zoom in and out of the DX space. Text, geometries, and all elements must change size appropriate to the type of zoom used. When zooming, content should reflow and not be cut off from view in two directions. Responsive design may need to consider re-arranging the display to ensure that no meaningful information or functionality is lost during reflow.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/reflow.html](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
@@ -1006,10 +1006,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/reflow.html](ht
 ### __User's text adjustments are not respected__
 
 
-Text spacing and font-size changed by the user is not respected. DX must not interfere with programmatic changes to font sizes or text spacing, such as importing a custom style sheet or using a browser’s build in zoom function. Font size and spacing must adjust accordingly.
-
-
 _This heuristic is based on standards_.
+
+
+Text spacing and font-size changed by the user is not respected. DX must not interfere with programmatic changes to font sizes or text spacing, such as importing a custom style sheet or using a browser’s build in zoom function. Font size and spacing must adjust accordingly.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)
@@ -1023,10 +1023,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/resize-text.htm
 ### __Design is not consistent and familiar__
 
 
-Design is not consistent and familiar by default. DXs must be made consistent with one another across an application or environment, including sharing default styling and settings as well as those set by the user.
-
-
 _This heuristic is based on standards_.
+
+
+Design is not consistent and familiar by default. DXs must be made consistent with one another across an application or environment, including sharing default styling and settings as well as those set by the user.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html)
@@ -1037,10 +1037,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/consistent-iden
 ### __Contrast and textures cannot be adjusted__
 
 
-Contrast or textures cannot be adjusted as-needed. User must be able to change contrast as needed. DX must not interfere with or override user’s independent contrast adjustments and DX must adjust accordingly to new settings. DX textures (such as those used on fills) must be able to be turned on or off according to user preference.
-
-
 _This heuristic is based on community practices_.
+
+
+Contrast or textures cannot be adjusted as-needed. User must be able to change contrast as needed. DX must not interfere with or override user’s independent contrast adjustments and DX must adjust accordingly to new settings. DX textures (such as those used on fills) must be able to be turned on or off according to user preference.
 
 
 __Cited community practice__: [https://observablehq.com/@frankelavsky/experimental-color-scale-textures](https://observablehq.com/@frankelavsky/experimental-color-scale-textures)
@@ -1054,10 +1054,10 @@ __Cited community practice__: [https://observablehq.com/@frankelavsky/experiment
 ### __Difficult chart type has no alternative__
 
 
-The user should be able to adjust the type or presentation of difficult or complex charts into more accessible alternatives that still accomplish the same analytical task.
-
-
 _This heuristic is based on research_.
+
+
+The user should be able to adjust the type or presentation of difficult or complex charts into more accessible alternatives that still accomplish the same analytical task.
 
 
 __Cited research__: [https://dl.acm.org/doi/pdf/10.1145/3411764.3445743](https://dl.acm.org/doi/pdf/10.1145/3411764.3445743)
