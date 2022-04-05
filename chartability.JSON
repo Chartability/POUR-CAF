@@ -229,7 +229,7 @@
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
       "Resources": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-      "Limitations and Caveats": "",
+      "Limitations and Caveats": "Chartability is not intended to compete against or completely replace any existing standards and guidelines but work alongside them.",
       "POUR Coding": "robust",
       "Additional Category Coding": "inter-operable"
     },
