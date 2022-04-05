@@ -151,7 +151,7 @@
       "Tools or Testing Method": "",
       "Knowledge Type": "Research",
       "Resources": "https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf",
-      "Limitations and Caveats": "Dual axis graphs in particular have been a contentious topic in visualization. We have encountered (enecdotally) arguments in favor of using them when your audience are \"trained experts.\" We are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.",
+      "Limitations and Caveats": "Dual axis graphs in particular have been a contentious topic in visualization. We have encountered (anecdotally) arguments in favor of using them when your audience are \"trained experts.\" We are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.",
       "POUR Coding": "understandable",
       "Additional Category Coding": "excessive, cognitive load"
     },
