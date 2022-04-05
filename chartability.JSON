@@ -622,5 +622,18 @@
         "Limitations and Caveats": "Special circumstances may require complex terminology, but these should be explained using a reading grade level of 9 or lower.",
         "POUR Coding": "understandable",
         "Additional Category Coding": "informative, simplified, plain"
+    },
+    {
+        "Test Name": "Target pointer interaction size is too small",
+        "Principle": "Operable",
+        "Critical": "No",
+        "Description": "Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.",
+        "Good Examples": "",
+        "Tools or Testing Method": "",
+        "Knowledge Type": "Standard",
+        "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
+        "Limitations and Caveats": "This is quite a hard requirement for accessibility in visualization because the spatial dimensions of visual marks are often mapped to variables. We argue that alternatives should be provided such as text labels that satisfy minimum size, accompanying data tables or search functions, alternative navigation and input (such as with a keyboard or non-precise touch input), or features like zooming or filtering. While we applaud efforts such as the use of voronoi diagrams on top of visualizations, we believe that these still pose significant operability barriers for people with motor impairments.",
+        "POUR Coding": "operable, perceivable",
+        "Additional Category Coding": ""
     }
    ]
