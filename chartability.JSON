@@ -445,11 +445,11 @@
       "Test Name": "Contrast and textures cannot be adjusted",
       "Principle": "Flexible",
       "Critical": "No",
-      "Description": "Contrast or textures cannot be adjusted as-needed User must be able to change contrast as needed. DX must not interfere with or override user’s independent contrast adjustments and DX must adjust accordingly to new settings. DX textures (such as those used on fills) must be able to be turned on or off according to user preference.",
+      "Description": "Contrast or textures cannot be adjusted as-needed. User must be able to change contrast as needed. DX must not interfere with or override user’s independent contrast adjustments and DX must adjust accordingly to new settings. DX textures (such as those used on fills) must be able to be turned on or off according to user preference.",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Community Practice",
-      "Resources": "",
+      "Resources": "https://observablehq.com/@frankelavsky/experimental-color-scale-textures",
       "Limitations and Caveats": "In experiences with audiences in the past, we have found that if some chart textures are on by default, we are creating accessibility barriers due to their visual complexity (we lose or complicate pre-attentive features as well). So we argue that textures (whether on by default or not) must be able to be toggled according to user preference. Much more work and research needs to be done in this space, especially as it challenges the idea that a single design can satisfy everyone's access needs.",
       "POUR Coding": "perceivable, robust",
       "Additional Category Coding": "flexible, presentation, alternative, user-controlled, respectful, empowering"
