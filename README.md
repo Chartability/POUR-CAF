@@ -141,6 +141,9 @@ Auditors should be especially critical of static designs, such as those where st
 
 ## Chartability's Principles and Heuristics
 
+
+The following section contains Chartability's 7 principles and 50 heuristics, 14 of which are considered _critical_. Those new to chartability should try testing just the _critical_ heuristics first, and then move on to all of them.
+
 ## Perceivable
 
 
