@@ -275,9 +275,9 @@ chartability.forEach(d => {
         }
     }
     p.push({"p": `_This heuristic is based on knowledge from ${d["Knowledge Type"]}_.`})
-    if (d["Resource"]) {
+    if (d["Resources"]) {
         const nonPlural = d["Knowledge Type"].substring(d["Knowledge Type"].length-1) === 's' ? d["Knowledge Type"].substring(0,d["Knowledge Type"].length-1) : d["Knowledge Type"]
-        p.push({"p": `Example ${nonPlural}: [${d["Resource"]}](${d["Resource"]})`})
+        p.push({"p": `Example ${nonPlural}: [${d["Resources"]}](${d["Resources"]})`})
     }
     if (d["Limitations and Caveats"]) {
         p.push({"p": `<details><summary><i>Notes (select to expand)</i></summary><p>${d["Limitations and Caveats"]}</p></details>`})
