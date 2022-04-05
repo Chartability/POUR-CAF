@@ -264,6 +264,7 @@ chartability.forEach(d => {
     const p = principles[d.Principle].heuristics
     p.push({"h3": `__${d["Test Name"]}__${(d["Critical"] === "Yes" ? " _(critical)_" : "")}` })
     p.push({"p": d["Description"]})
+    p.push({"p": `_This heuristic is based on ${d["Knowledge Type"]}_.`})
     if (d["Good Examples"]) {
         p.push({"p": `__Good example__: [${d["Good Examples"]}](${d["Good Examples"]})`})
     }
@@ -274,10 +275,9 @@ chartability.forEach(d => {
             p.push({"p": `__Example tools or testing method__: ${d["Tools or Testing Method"]}`})
         }
     }
-    p.push({"p": `_This heuristic is based on knowledge from ${d["Knowledge Type"]}_.`})
     if (d["Resources"]) {
         const nonPlural = d["Knowledge Type"].substring(d["Knowledge Type"].length-1) === 's' ? d["Knowledge Type"].substring(0,d["Knowledge Type"].length-1) : d["Knowledge Type"]
-        p.push({"p": `Example ${nonPlural}: [${d["Resources"]}](${d["Resources"]})`})
+        p.push({"p": `__Cited ${nonPlural}__: [${d["Resources"]}](${d["Resources"]})`})
     }
     if (d["Limitations and Caveats"]) {
         p.push({"p": `<details><summary><i>Notes (select to expand)</i></summary><p>${d["Limitations and Caveats"]}</p></details>`})
