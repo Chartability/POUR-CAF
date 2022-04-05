@@ -494,10 +494,10 @@
       "Additional Category Coding": "tolerant, empowering"
     },
     {
-      "Test Name": "Data cannot be navigated according to structure",
+      "Test Name": "Information cannot be navigated according to narrative or structure",
       "Principle": "Compromising",
       "Critical": "No",
-      "Description": "DX data cannot be navigated according to its data structure. DX data that contains sub-grouping (like a stacked bar DX) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).",
+      "Description": "DX cannot be navigated according to its data or narrative structure. The title, description, annotations, and then lower level data structures should be navigable and in that order. DX data that contains sub-grouping (like a stacked bar DX) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Research",
