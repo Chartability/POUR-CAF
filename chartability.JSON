@@ -1,16 +1,16 @@
 [
     {
-      "Test Name": "No explanation for how to read",
-      "Principle": "Understandable",
-      "Critical": "Yes",
-      "Description": "If DX is novel or unconventional and does not have an explanation. DX should have an explanation for how to read, use, and interpret it.",
-      "Good Examples": "",
-      "Tools or Testing Method": "",
-      "Knowledge Type": "Research",
-      "Resources": "https://doi.org/10.1109/TVCG.2019.2917689",
-      "Limitations and Caveats": "The criteria for 1.3.6 \"Identify Purpose,\" 3.3.2 \"Labels or Instructions,\" and 3.3.5 \"Help\" all fail to necessitate explaining how to read a complex data visualization. Even simple data visualizations can give people trouble interpreting or understanding.",
-      "POUR Coding": "understandable",
-      "Additional Category Coding": "informative"
+        "Test Name": "No explanation for purpose or for how to read",
+        "Principle": "Understandable",
+        "Critical": "Yes",
+        "Description": "DX should explain its purpose and how to read, use, and interpret it.",
+        "Good Examples": "",
+        "Tools or Testing Method": "",
+        "Knowledge Type": "Research",
+        "Resources": "https://doi.org/10.1109/TVCG.2019.2917689",
+        "Limitations and Caveats": "The criteria for 1.3.6 \"Identify Purpose,\" 3.3.2 \"Labels or Instructions,\" and 3.3.5 \"Help\" all fail to necessitate explaining how to read a complex data visualization. Even simple data visualizations can give people trouble interpreting or understanding.",
+        "POUR Coding": "understandable",
+        "Additional Category Coding": "informative"
     },
     {
       "Test Name": "No title, summary, or caption",
