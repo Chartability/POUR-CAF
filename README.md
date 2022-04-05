@@ -152,6 +152,9 @@ User must be able to easily identify content using their senses: sight, sound, a
 ### __Low contrast__ _(critical)_
 
 
+<details><summary><i>(select to read more)</i></summary><div>
+
+
 _This heuristic is based on standards_.
 
 
@@ -172,7 +175,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 
 <br>
 
+
+</div></details>
+
 ### __Only visual__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -195,7 +204,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives](
 
 <br>
 
+
+</div></details>
+
 ### __Small text size__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -212,7 +227,13 @@ __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.
 
 <br>
 
+
+</div></details>
+
 ### __Visual presents seizure risk__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -232,7 +253,13 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html](ht
 
 <br>
 
+
+</div></details>
+
 ### __Color is used alone to communicate meaning__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -252,7 +279,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.ht
 
 <br>
 
+
+</div></details>
+
 ### __Meaningful elements are obscured__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -272,7 +305,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/distinguishable
 
 <br>
 
+
+</div></details>
+
 ### __Not CVD-friendly__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -295,7 +334,13 @@ __Cited research__: [https://doi.org/10.1007/s10209-021-00816-0](https://doi.org
 
 <br>
 
+
+</div></details>
+
 ### __Spacing is inappropriate__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -315,12 +360,18 @@ __Cited community practice__: [https://www.calliaweb.co.uk/whitespace-not-just-a
 
 <br>
 
+
+</div></details>
+
 ## Operable
 
 
 All controls must be error-tolerant, discoverable, and multi-modal (not just mouse operable, but using keyboard, etc).
 
 ### __Interaction output only has one input__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -340,7 +391,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exc
 
 <br>
 
+
+</div></details>
+
 ### __No interaction cues or instructions__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -360,7 +417,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instr
 
 <br>
 
+
+</div></details>
+
 ### __Controls override AT controls__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -380,7 +443,13 @@ __Cited standard__: [https://www.w3.org/TR/WCAG21/#character-key-shortcuts](http
 
 <br>
 
+
+</div></details>
+
 ### __Low contrast on iteractive elements__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -397,7 +466,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 
 <br>
 
+
+</div></details>
+
 ### __Keyboard focus indicator missing, obscured, or low contrast__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -414,7 +489,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/focus-appearanc
 
 <br>
 
+
+</div></details>
+
 ### __Inappropriate tab stops__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -431,7 +512,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/focus-order.htm
 
 <br>
 
+
+</div></details>
+
 ### __Complex actions have no alternatives__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -448,7 +535,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 
 <br>
 
+
+</div></details>
+
 ### __Target pointer interaction size is too small__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -465,12 +558,18 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/target-size.htm
 
 <br>
 
+
+</div></details>
+
 ## Understandable
 
 
 Any information or data are presented without ambiguity, with clarity, and in a way that minimizes cognitive load.
 
 ### __No explanation for purpose or for how to read__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -487,7 +586,13 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2019.2917689](https://doi.org/
 
 <br>
 
+
+</div></details>
+
 ### __No title, summary, or caption__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -504,7 +609,13 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2015.2467732](https://doi.org/
 
 <br>
 
+
+</div></details>
+
 ### __Reading level inappropriate__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -524,7 +635,13 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-suppleme
 
 <br>
 
+
+</div></details>
+
 ### __Interactive context is not clear__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -541,7 +658,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages
 
 <br>
 
+
+</div></details>
+
 ### __Information complexity is inappropriate__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -558,7 +681,13 @@ __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf]
 
 <br>
 
+
+</div></details>
+
 ### __Changes are not easy to follow__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -575,7 +704,13 @@ __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.or
 
 <br>
 
+
+</div></details>
+
 ### __Metrics and variables are undefined__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -595,7 +730,13 @@ __Cited research__: [NCAM, Diagram Center](NCAM, Diagram Center)
 
 <br>
 
+
+</div></details>
+
 ### __Statistical uncertainty isn't clearly communicated__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -615,7 +756,13 @@ __Cited research__: [https://doi.org/10.1145/3173574.3173718](https://doi.org/10
 
 <br>
 
+
+</div></details>
+
 ### __Axis labels are unclear or missing__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -632,7 +779,13 @@ __Cited community practice__: [https://www.yellowfinbi.com/best-practice-guide/c
 
 <br>
 
+
+</div></details>
+
 ### __Controls are inappropriate__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -649,12 +802,18 @@ __Cited community practice__: [https://inclusivedesignprinciples.org/#add-value]
 
 <br>
 
+
+</div></details>
+
 ## Robust
 
 
 The design is compliant with existing standards and works with the user’s compliant, assistive technologies of choice.
 
 ### __Does not conform to standards__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -671,7 +830,13 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-pa
 
 <br>
 
+
+</div></details>
+
 ### __Semantically invalid__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -688,7 +853,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/name-role-value
 
 <br>
 
+
+</div></details>
+
 ### __Fragile technology support__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -702,12 +873,18 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/concurrent-inpu
 
 <br>
 
+
+</div></details>
+
 ## Compromising
 
 
 (Understandable, yet Robust): Information flows must provide transparency, tolerance, and consideration for different ways that users with assistive technologies and disabilities will prefer to consume different information.
 
 ### __No table__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -727,7 +904,13 @@ __Cited research__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-p
 
 <br>
 
+
+</div></details>
+
 ### __Information can only be reached through single process__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -741,7 +924,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 
 <br>
 
+
+</div></details>
+
 ### __Location and history is clear__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -755,7 +944,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](
 
 <br>
 
+
+</div></details>
+
 ### __Interactions are not forgiveable__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -772,7 +967,13 @@ __Cited research__: [https://doi.org/10.1080/00140139408964958](https://doi.org/
 
 <br>
 
+
+</div></details>
+
 ### __Information cannot be navigated according to narrative or structure__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -789,7 +990,13 @@ __Cited research__: [https://dl.acm.org/doi/abs/10.1145/2745555.2746667](https:/
 
 <br>
 
+
+</div></details>
+
 ### __Table/data is static__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -806,7 +1013,13 @@ __Cited community practice__: [https://inclusive-components.design/data-tables/]
 
 <br>
 
+
+</div></details>
+
 ### __State is not easy to share and reproduce__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -826,12 +1039,18 @@ __Cited community practice__: [https://key2consulting.com/share-power-bi-reports
 
 <br>
 
+
+</div></details>
+
 ## Assistive
 
 
 (Understandable and Perceivable but labor-reducing): Interface must be intelligent and multi-sensory in a way that reduces the cognitive and functional labor required for use.
 
 ### __Data density is inappropriate__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -851,7 +1070,13 @@ __Cited research__: [https://vita.had.co.nz/papers/bigvis.pdf](https://vita.had.
 
 <br>
 
+
+</div></details>
+
 ### __Navigation and interaction is tedious__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -868,7 +1093,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks](
 
 <br>
 
+
+</div></details>
+
 ### __Visually apparent features and relationships are not described__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -888,7 +1119,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/info-and-relati
 
 <br>
 
+
+</div></details>
+
 ### __Data in text is not human-readable__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -902,7 +1139,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.h
 
 <br>
 
+
+</div></details>
+
 ### __Space does not handle extremes__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -919,7 +1162,13 @@ __Good example__: [https://towardsdatascience.com/data-visualisation-principles-
 
 <br>
 
+
+</div></details>
+
 ### __No default "build-your-own" provided__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -933,12 +1182,18 @@ __Description__: If DX must be built by the user, no default, opinionated state 
 
 <br>
 
+
+</div></details>
+
 ## Flexible
 
 
 (Perceivable and Operable, yet Robust): Design must respect user settings from user agents (browsers, operating systems, applications) and provide presentation and operation control.
 
 ### __User style change not respected__ _(critical)_
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -952,7 +1207,13 @@ __Description__: Styling changed by the user is not respected. DX must not inter
 
 <br>
 
+
+</div></details>
+
 ### __Long animations cannot be controlled__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -969,7 +1230,13 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 
 <br>
 
+
+</div></details>
+
 ### __Scrolling experiences cannot be altered__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -986,7 +1253,13 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 
 <br>
 
+
+</div></details>
+
 ### __Zoom and reflow are not supported__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -1003,7 +1276,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/reflow.html](ht
 
 <br>
 
+
+</div></details>
+
 ### __User's text adjustments are not respected__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -1020,7 +1299,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/resize-text.htm
 
 <br>
 
+
+</div></details>
+
 ### __Design is not consistent and familiar__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on standards_.
@@ -1034,7 +1319,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/consistent-iden
 
 <br>
 
+
+</div></details>
+
 ### __Contrast and textures cannot be adjusted__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on community practices_.
@@ -1051,7 +1342,13 @@ __Cited community practice__: [https://observablehq.com/@frankelavsky/experiment
 
 <br>
 
+
+</div></details>
+
 ### __Difficult chart type has no alternative__
+
+
+<details><summary><i>(select to read more)</i></summary><div>
 
 
 _This heuristic is based on research_.
@@ -1067,3 +1364,6 @@ __Cited research__: [https://dl.acm.org/doi/pdf/10.1145/3411764.3445743](https:/
 
 
 <br>
+
+
+</div></details>
