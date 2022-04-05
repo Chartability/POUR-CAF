@@ -118,11 +118,11 @@ let output = [
         p: [
             "There are a lot of different ways to perform an audit, and so there are also many different ways to use Chartability. Sometimes an audit is as casual as checking your work while you do it. And other times it is a big affair that involves teams of specialists and lawyers.",
             "Realistically, while a highly trained auditor may be able to casually evaluate an artifact in as little as 30 minutes or even hold heuristics in mind as they are doing their own creative work, those new to auditing may take anywhere between 2 and 8 hours to complete a full pass of Chartability. Professional audits, which can take weeks or months, often include multiple auditors and provide rigorous documentation and detailed recommendations for remediation, typically in the form of a report. Chartability is meant to serve both quick pass and deep dive styles of audits, so users are expected to leverage it as they see fit.",
-            "Below we give an example of what might be a quick pass audit, using Chartability. This isn't super thorough, but a good way to check for most of the serious access barriers in charts and graphs."
+            "Below we give an example of what might be a fast pass audit, using Chartability, in 5 steps. This isn't super thorough, but a good way to quickly check a handful of access barriers quickly."
         ]
     },
     { 
-        h3: "Visual Testing" 
+        h3: "1. Visual Testing" 
     },
     { 
         img: { 
@@ -151,7 +151,7 @@ let output = [
         blockquote: "Figure 2: Keyboard navigation paths on a stacked bar chart. The left shows a serial navigation example, typically just a default of rendering order. The right shows both groups (the stack of bars) and categories (the color/texture shared among bars across stacks) as dimensions to explore laterally or vertically."
     },
     {
-        h3: "Keyboard Probing"
+        h3: "2. Keyboard Probing"
     },
     {
         p: "The next practice that most auditors should become comfortable with is using a keyboard to navigate and operate any functionality that is provided. Most assistive technologies, from screen readers to a variety of input devices (like switches, joysticks, sip and puffs, etc) use the keyboard api (or keyboard interface) to navigate content. If a data interface contains interactive elements (Figure 2, Figure 3), those elements (or their functionality) must be able to be reached and controlled using a keyboard alone. Auditors should be critical of how much work is involved in keyboard navigation, especially (Figure 7). All that is required to start is the auditor begins pressing the tab key to see if anything interactive comes into focus. Arrow keys, spacebar, enter, and escape may be used in some contexts. Generally, instructions or cues should always be provided."
@@ -170,7 +170,7 @@ let output = [
         p: "Using a keyboard provides an opportunity to evaluate many different heuristics: checking for multiple inputs (Figure 3), whether the data structure that is rendered is navigable according to its structure (Figure 2), and whether keyboard navigability across all elements in a data interface is even necessary (Figure 7)."
     },
     {
-        h3: "Screen Reader Inspecting"
+        h3: "3. Screen Reader Inspecting"
     },
     {
         p: "Closely related to keyboard testing is testing with a screen reader. Some things may work with a screen reader that do not with a keyboard (and vice versa), so both must be evaluated."
@@ -212,7 +212,7 @@ let output = [
         blockquote: "Figure 6: A line chart with a single line (left) and an accompanying data table (right). This line chart would not provide enough low-level information about each datapoint without the table provided. A table alone however would also be inaccessible. Providing both can satisfy conflicting accessibility needs for different audiences."
     },
     {
-        h3: "Checking Cognitive Barriers"
+        h3: "4. Checking Cognitive Barriers"
     },
     {
         p: "First, auditing for cognitive barriers generally involves checking the reading level and clarity of all available text using analytical tools. But Chartability also requires that all charts have basic text provided that provides a visually-available textual description and takeaway (\autoref{fig:5}). This alone is one of the most important things to check for. In complex cases where a chart has a visual feature with an assumedly obvious takeaway, checking for annotations or textual callouts is important to help avoid interpretive issues (Figure 7)."
@@ -228,7 +228,7 @@ let output = [
         blockquote: "Figure 7: A scatterplot with many points, where a single point within the chart can be accessed by a screen reader (left). Navigating this data piece by piece is unnecessarily tedious, so an annotation callout is provided to help the reader focus on an outlier cluster (right). The callout is being accessed by a screen reader, which is displaying the annotation’s summary as well."
     },
     {
-        h3: "Evaluating Context"
+        h3: "5. Evaluating Context"
     },
     {
         p: [
