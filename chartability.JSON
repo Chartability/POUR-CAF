@@ -468,10 +468,10 @@
       "Additional Category Coding": "alternative, tolerant"
     },
     {
-      "Test Name": "View path is hard to understand and return to",
+      "Test Name": "Location and history is clear",
       "Principle": "Compromising",
       "Critical": "No",
-      "Description": "Current view path is not easy to understand or return to. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with bread-crumbs to guide their path as well as the ability to save, reload, and navigate history.",
+      "Description": "Current location in a system is not easy to understand or return to. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with bread-crumbs to guide their path as well as the ability to save, reload, and navigate history.",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "Standard",
