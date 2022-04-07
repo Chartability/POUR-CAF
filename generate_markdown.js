@@ -8,6 +8,7 @@ const scaffolding = require("./includes/scaffolding")
 const principles = scaffolding.principles
 const siteHeading = scaffolding.siteHeading
 const workbookHeading = scaffolding.workbookHeading
+const startingContent = scaffolding.startingContent
 
 let output = []
 let workbookOutput = []
@@ -54,6 +55,11 @@ workbookHeading.forEach(i => {
         upgradedItem = i
     }
     workbookOutput.push(upgradedItem)
+})
+
+startingContent.forEach(i => {
+    output.push(i)
+    workbookOutput.push(i)
 })
 
 const addPrinciples = (target) => {

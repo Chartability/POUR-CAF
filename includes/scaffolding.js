@@ -104,7 +104,9 @@ module.exports = {
         },
         {
             p: "<hr><br>"
-        },
+        }
+    ],
+    startingContent: [
         { 
             h2: "How do you use Chartability?" 
         },
