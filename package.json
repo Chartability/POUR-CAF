@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "json2md": "^1.12.0"
+    "json2md": "^1.12.0",
+    "showdown": "^2.0.3"
   }
 }
