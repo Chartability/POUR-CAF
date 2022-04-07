@@ -2,7 +2,7 @@ const showdown = require("showdown")
 const fs = require('fs');
 const converter = new showdown.Converter();
 
-const readme = fs.readFileSync('README.md', 'utf8');
+const readme = fs.readFileSync('workbook.md', 'utf8');
 
 const buildFile = () => {
     // more to add here, style files, etc
