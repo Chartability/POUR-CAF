@@ -11,9 +11,7 @@
     --bright: #fee557;
     --soft: #fef4ac;
     --body-font: 1rem;
-    --h1: 5vw;
-    --h2: 3rem;
-    --h3: 2rem;
+    --h1: 3.7rem;
 }
 
 
@@ -35,7 +33,9 @@ body {
     /* margin: 1rem; */
     /* border: 2px solid var(--non-text); */
     color:  var(--text-or-dark);
-    padding: 1rem;
+    max-width: 864px;
+    margin: 0 auto;
+    padding: 0 32px;
     /* outline: 10rem solid var(--base); */
     /* box-shadow: inset 20rem var(--base); */
 }
@@ -44,16 +44,25 @@ h1 {
     color: var(--text-or-dark);
 }
 
+img {
+    width: 100%;
+}
+
+nav {
+    padding-top: 16px;
+}
+
+footer {
+    padding-bottom: 32px;
+}
+
 @media (min-width: 650px) {
   h1 {
     font-size: var(--h1);
   }
 
   main {
-    width: 70vw;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   nav ul {
