@@ -18,7 +18,7 @@ Any issues related to this workbook should be handled by this repository. Simply
 ## The Chartability Workbook
 
 
-This workbook is intended to serve as a lightweight, high-level audit for catching data experience* design failures related to accessibility. Note that CRITICAL tests in this workbook are not the “most important” tests (as every test is important in Chartability) but rather tests that are either: very common or expensive to remediate. For more on Chartability, see: [https://chartability.fizz.studio/](https://chartability.fizz.studio/)
+This workbook is intended to serve as a lightweight, high-level audit for catching data experience* design failures related to accessibility. For more on Chartability, see our home page: [https://chartability.fizz.studio/](https://chartability.fizz.studio/)
 
 *A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system.
 
