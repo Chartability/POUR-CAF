@@ -64,7 +64,7 @@ Below we give an example of what might be a fast pass audit, using Chartability,
 
 ### 1. Visual Testing
 
-![A dropper tool is testing the contrast of a chart and then a new chart is shown with borders that pass contrast requirements.](/images/figure1.png "Contrast testing.")
+![A dropper tool is testing the contrast of a chart and then a new chart is shown with borders that pass contrast requirements.](./images/figure1.png "Contrast testing.")
 
 > Figure 1: A low contrast chart (left) compared to a higher contrast version (right). A dropper tool is extracting the fill color of the bar and then a contrast ratio has been calculated. Note that the fill color is the same on both bars, but darker borders have been added to ensure the visualization passes contrast tests.
 

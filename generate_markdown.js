@@ -127,7 +127,7 @@ let output = [
     { 
         img: { 
             title: "Contrast testing.", 
-            source: "/images/figure1.png", 
+            source: "./images/figure1.png", 
             alt: "A dropper tool is testing the contrast of a chart and then a new chart is shown with borders that pass contrast requirements." 
         }
     },
