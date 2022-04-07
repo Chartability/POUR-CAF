@@ -5,9 +5,8 @@ const converter = new showdown.Converter();
 const readme = fs.readFileSync('README.md', 'utf8');
 
 const buildFile = () => {
-    console.log(readme.replace())
+    // more to add here, style files, etc
     const file = converter.makeHtml(readme)
-    console.log(file)
     return file
 }
 
