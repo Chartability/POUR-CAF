@@ -1,0 +1,106 @@
+:root {
+    --base: #b2c0e0;
+    --background-or-light: #fbfdff;
+    --text-or-dark: #21224A;
+    /* --text-or-dark: #493c52; */
+    /* --text-or-dark: #171D47; */
+    --hilite-text: #111A52;
+    --visited: #4E5980;
+    --non-text: #5E7297;
+    --action: #0159B2;
+    --bright: #fee557;
+    --soft: #fef4ac;
+    --body-font: 1rem;
+    --h1: 11vw;
+    --h1-height: 12.4vw;
+    --h2: 3rem;
+    --h3: 2rem;
+}
+
+
+html {
+  background-color: var(--base);
+}
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+body {
+    /* min-width: 200px; */
+    font-family: 'Noto Sans', Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-decoration-skip-ink: none;
+    background-color: var(--background-or-light);
+    /* margin: 1rem; */
+    /* border: 2px solid var(--non-text); */
+    color:  var(--text-or-dark);
+    padding: 1rem;
+    /* outline: 10rem solid var(--base); */
+    /* box-shadow: inset 20rem var(--base); */
+}
+
+@media (min-width: 650px) {
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-size: var(--h1);
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700; 
+
+    color: var(--background-or-light);
+    background-color: var(--text-or-dark);
+    height: var(--h1-height);
+  }
+
+  main {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    list-style-type: none;
+  }
+
+  section.columns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.columns > div {
+    max-width: 45%;
+  }
+
+  section.hilite > div {
+    padding: 0.75rem;
+    background-color: var(--soft);
+  }
+
+  section.hilite h3 {
+    margin: 0;
+    color: var(--hilite-text);
+  }
+  
+  p.hilite {
+      position: relative;
+      max-width: 65%;
+      left: -2rem;
+      padding: 0.75rem;
+      padding-left: 2rem;
+      background-color: var(--soft);
+  }
+}
