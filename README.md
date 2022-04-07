@@ -116,7 +116,7 @@ Next, all valuable information and functionality in a data experience should tes
 ### 4. Checking Cognitive Barriers
 
 
-First, auditing for cognitive barriers generally involves checking the reading level and clarity of all available text using analytical tools. But Chartability also requires that all charts have basic text provided that provides a visually-available textual description and takeaway (autoref{fig:5}). This alone is one of the most important things to check for. In complex cases where a chart has a visual feature with an assumedly obvious takeaway, checking for annotations or textual callouts is important to help avoid interpretive issues (Figure 7).
+First, auditing for cognitive barriers generally involves checking the reading level and clarity of all available text using analytical tools. But Chartability also requires that all charts have basic text provided that provides a visually-available textual description and takeaway (Figure 4). This alone is one of the most important things to check for. In complex cases where a chart has a visual feature with an assumedly obvious takeaway, checking for annotations or textual callouts is important to help avoid interpretive issues (Figure 7).
 
 ![A dense scatterplot being navigated point-by-point and a scatterplot that allows a user to navigate to an annotation on an outlier cluster.](./images/figure7.png "Accessible annotations on a dense scatterplot.")
 
