@@ -42,6 +42,7 @@ body {
 
 h1 {
     color: var(--text-or-dark);
+    margin-bottom: 0;
 }
 
 img {
@@ -49,7 +50,7 @@ img {
 }
 
 nav {
-    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 footer {
