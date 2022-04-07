@@ -30,6 +30,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
   <link href="./includes/style.css" rel="stylesheet">
 </head>
+<body> 
+<nav class="nav">
+    <ul>
+        <li><a href="https://chartability.fizz.studio" class="nav-item">Chartability Home (external)</a></li>
+        <li><a href="#thechartabilityworkbook" class="nav-item">The Workbook</a></li>
+        <li><a href="#support-us" class="nav-item">Support Us</a></li>
+        <li><a href="#credits" class="nav-item">Credits</a></li>
+    </ul>
+</nav>
+<main> 
 <h1 id="thechartabilityworkbook">The Chartability Workbook</h1>
 <p>This workbook is intended to serve as a lightweight, high-level audit for catching data experience* design failures related to accessibility. Note that CRITICAL tests in this workbook are not the “most important” tests (as every test is important in Chartability) but rather tests that are either: very common or expensive to remediate. For more on Chartability, see: <a href="https://chartability.fizz.studio/">https://chartability.fizz.studio/</a></p>
 <p>*A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system.</p>
@@ -46,11 +56,11 @@
 <p>Some tests are considered <em>critical</em> by members of the community because they are prohibitively expensive to fix, common, produces signficant barriers, and/or affect many aspects of a data experience design or development.</p>
 <p>While all tests in Chartability are important, it is worth noting that Chartability's community has contributed to emphasizing the tests marked critical. All data experiences should strive to have 0 critical failures as a minimum while working toward 0 failures overall.</p>
 <p><hr><br></p>
-<h1 id="howdoyouusechartability">How do you use Chartability?</h1>
+<h2 id="howdoyouusechartability">How do you use Chartability?</h2>
 <p>There are a lot of different ways to perform an audit, and so there are also many different ways to use Chartability. Sometimes an audit is as casual as checking your work while you do it. And other times it is a big affair that involves teams of specialists and lawyers.</p>
 <p>Realistically, while a highly trained auditor may be able to casually evaluate an artifact in as little as 30 minutes or even hold heuristics in mind as they are doing their own creative work, those new to auditing may take anywhere between 2 and 8 hours to complete a full pass of Chartability. Professional audits, which can take weeks or months, often include multiple auditors and provide rigorous documentation and detailed recommendations for remediation, typically in the form of a report. Chartability is meant to serve both quick pass and deep dive styles of audits, so users are expected to leverage it as they see fit.</p>
 <p>Below we give an example of what might be a fast pass audit, using Chartability, in 5 steps. This isn't super thorough, but a good way to quickly check a handful of access barriers quickly.</p>
-<h2 id="1visualtesting">1. Visual Testing</h2>
+<h3 id="1visualtesting">1. Visual Testing</h3>
 <p><img src="./images/figure1.png" alt="A dropper tool is testing the contrast of a chart and then a new chart is shown with borders that pass contrast requirements." title="Contrast testing." /></p>
 <blockquote>
   <p>Figure 1: A low contrast chart (left) compared to a higher contrast version (right). A dropper tool is extracting the fill color of the bar and then a contrast ratio has been calculated. Note that the fill color is the same on both bars, but darker borders have been added to ensure the visualization passes contrast tests.</p>
@@ -61,14 +71,14 @@
 <blockquote>
   <p>Figure 2: Keyboard navigation paths on a stacked bar chart. The left shows a serial navigation example, typically just a default of rendering order. The right shows both groups (the stack of bars) and categories (the color/texture shared among bars across stacks) as dimensions to explore laterally or vertically.</p>
 </blockquote>
-<h2 id="2keyboardprobing">2. Keyboard Probing</h2>
+<h3 id="2keyboardprobing">2. Keyboard Probing</h3>
 <p>The next practice that most auditors should become comfortable with is using a keyboard to navigate and operate any functionality that is provided. Most assistive technologies, from screen readers to a variety of input devices (like switches, joysticks, sip and puffs, etc) use the keyboard api (or keyboard interface) to navigate content. If a data interface contains interactive elements (Figure 2, Figure 3), those elements (or their functionality) must be able to be reached and controlled using a keyboard alone. Auditors should be critical of how much work is involved in keyboard navigation, especially (Figure 7). All that is required to start is the auditor begins pressing the tab key to see if anything interactive comes into focus. Arrow keys, spacebar, enter, and escape may be used in some contexts. Generally, instructions or cues should always be provided.</p>
 <p><img src="./images/figure3.png" alt="A chart is being selected by a mouse, updating a dataset that follows it." title="Interactive chart and dataset." /></p>
 <blockquote>
   <p>Figure 3: A mouse cursor is selecting a bar (left, shown with a thick indication border) in a stacked bar chart to filter a dataset (on the right). A system alert (red box) notifies the user of their interaction result. This selection capability must also be provided for the keyboard interface and the alert must be announced to screen readers.</p>
 </blockquote>
 <p>Using a keyboard provides an opportunity to evaluate many different heuristics: checking for multiple inputs (Figure 3), whether the data structure that is rendered is navigable according to its structure (Figure 2), and whether keyboard navigability across all elements in a data interface is even necessary (Figure 7).</p>
-<h2 id="3screenreaderinspecting">3. Screen Reader Inspecting</h2>
+<h3 id="3screenreaderinspecting">3. Screen Reader Inspecting</h3>
 <p>Closely related to keyboard testing is testing with a screen reader. Some things may work with a screen reader that do not with a keyboard (and vice versa), so both must be evaluated.</p>
 <p><img src="./images/figure4.png" alt="A chart with an inaccessible title compared to a chart with a descriptive, takeaway title and caption." title="Using a clear takeaway title." /></p>
 <blockquote>
@@ -84,13 +94,13 @@
 <blockquote>
   <p>Figure 6: A line chart with a single line (left) and an accompanying data table (right). This line chart would not provide enough low-level information about each datapoint without the table provided. A table alone however would also be inaccessible. Providing both can satisfy conflicting accessibility needs for different audiences.</p>
 </blockquote>
-<h2 id="4checkingcognitivebarriers">4. Checking Cognitive Barriers</h2>
+<h3 id="4checkingcognitivebarriers">4. Checking Cognitive Barriers</h3>
 <p>First, auditing for cognitive barriers generally involves checking the reading level and clarity of all available text using analytical tools. But Chartability also requires that all charts have basic text provided that provides a visually-available textual description and takeaway (Figure 4). This alone is one of the most important things to check for. In complex cases where a chart has a visual feature with an assumedly obvious takeaway, checking for annotations or textual callouts is important to help avoid interpretive issues (Figure 7).</p>
 <p><img src="./images/figure7.png" alt="A dense scatterplot being navigated point-by-point and a scatterplot that allows a user to navigate to an annotation on an outlier cluster." title="Accessible annotations on a dense scatterplot." /></p>
 <blockquote>
   <p>Figure 7: A scatterplot with many points, where a single point within the chart can be accessed by a screen reader (left). Navigating this data piece by piece is unnecessarily tedious, so an annotation callout is provided to help the reader focus on an outlier cluster (right). The callout is being accessed by a screen reader, which is displaying the annotation’s summary as well.</p>
 </blockquote>
-<h2 id="5evaluatingcontext">5. Evaluating Context</h2>
+<h3 id="5evaluatingcontext">5. Evaluating Context</h3>
 <p>The final series of checks an auditor should make involve thinking about the overall work in a design (as it intersects with other considerations) as well as the larger technical context where the user is situated.</p>
 <p>Auditors should first try to change system settings (such as toggling high contrast modes) to see whether a data experience respects these settings (Figure 8), run automatic semantic evaluations as well as manually check for appropriate meaning (Figure 5), and check if dense or highly complex visuals have sonified, tactile, or textual summaries available (Figure 7). Auditors should also check whether system updates provide clear feedback textually (Figure 3) as well as checking if there are both high and low level representations of information available (Figure 6).</p>
 <p><img src="./images/figure8.png" alt="A chart compared to a version of that chart conforming to Windows' high contrast mode." title="Automatic contrast adjustment." /></p>
@@ -99,7 +109,7 @@
 </blockquote>
 <p>Auditors should be especially critical of static designs, such as those where styling and presentation cannot change (like using textures by default or not, eg. Figure 8), which are a high risk of compromising and adaptive failure.</p>
 <p><hr><br></p>
-<h1 id="chartabilitysprinciplesandheuristics">Chartability's Principles and Heuristics</h1>
+<h2 id="chartabilitysprinciplesandheuristics">Chartability's Principles and Heuristics</h2>
 <p>The following section contains Chartability's 7 principles and 50 heuristics, 14 of which are considered <em>critical</em>. Those new to chartability should try testing just the <em>critical</em> heuristics first, and then move on to all of them.</p>
 <h2 id="perceivable">Perceivable</h2>
 <p>User must be able to easily identify content using their senses: sight, sound, and touch.</p>
@@ -527,4 +537,24 @@
 <p><strong>Cited research</strong>: <a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445743">https://dl.acm.org/doi/pdf/10.1145/3411764.3445743</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>Pie charts, line charts without discrete marks, and bar charts without countable isotypes all pose cognitive difficultes. Chart types that are high risk for difficulty or misinterpretation should be presented alongside alternative charts or alternative explanations and charts should be available to help the user perform the same tasks. Optionally, users should be provided control over the presentation style of these chart types (eg change pies into treemaps or stacked bars, add discrete marks to line intervals, or add countable isotypes to divide bars).</p></details></p>
 <p><br></p>
-<p></div></details></p></html>
+<p></div></details></p></main> 
+<footer>
+    <h2 id="support-us">Support Us</h2>
+    <p>With enough support we could develop improvements, training materials, tools, research, and more. There is already a lot of work being done in this space, but we could use some help.</p>
+    <p class="hilite">Consider supporting <a href="https://www.patreon.com/frankElavsky">Frank Elavsky’s Patreon</a>, focused on data visualization and accessibility tools and research.</p>
+
+    <h3>Want to get involved?</h3>
+    <p>Nothing about us, without us! Chartability has been vetted and tested by an array of people with disabilities, including folks who are blind, low-vision, have motor impairments, cognitive impairments (ASD and AD/HD), and color vision deficiency. But even with all of that, it still could use more community contributors. The workbook’s online website is intended as the central source of collaboration and has a <a href="https://github.com/Chartability/"> Github repo</a> where community members are encouraged to open Issues for requests, feedback, and concerns. The goal is for Chartability to grow into a community-driven, community-centered piece of work.</p>
+
+    <h2 id="credits">Credits and Thanks</h2>
+    <p>Chartability was created by Frank Elavsky and is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA (Creative Commons Attribution-ShareAlike 3.0 Unported) license</a>.</p>
+    <p>Chartability is generously sponsored by Fizz Studio as well as by supporters of <a href="https://www.patreon.com/frankElavsky">Frank Elavsky’s Patreon.</a></p>
+    <p><b>This project was possible thanks to a broad collaboration with many people:</b></p>
+    <p>Doug Schepers of <a href="https://fizz.studio/">Fizz Studio</a> for being a great partner, sponsor, and guide.</p>
+    <p>Early testers and folks who contributed feedback (in no particular order): <a href="https://twitter.com/demartsc?lang=en">Chris DeMartini</a>, <a href="https://www.emilykund.com/">Emily Kund</a>, Amber Thomas (<a href="https://pudding.cool/author/amber-thomas/">The Pudding</a>), Øystein Moseng (Accessibility at <a href="https://www.highcharts.com/">Highcharts</a>), Jennifer Zhang and Ryan Shugart (Accessibility at <a href="https://www.microsoft.com/en-us?spl=2">Microsoft</a>), <a href="https://silvia.rbind.io/">Silvia Canelón</a> and <a href="http://www.doggenetics.com/">Liz Hare</a> (<a href="https://twitter.com/mir_community?lang=en">MiR</a>), <a href="https://www.domoritz.de/">Dominik Moritz</a> (<a href="https://vega.github.io/vega-lite/">Vega-Lite</a>), and many others who have requested that they remain anonymous.</p>
+    <p>Core members of the <a href="https://github.com/dataviza11y/Why-We-Exist">DatavizA11y group</a> not already listed.</p>
+</footer>
+<script>
+    console.log("Welcome to Chartability :)")
+</script>
+</body></html>
