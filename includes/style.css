@@ -11,8 +11,7 @@
     --bright: #fee557;
     --soft: #fef4ac;
     --body-font: 1rem;
-    --h1: 11vw;
-    --h1-height: 12.4vw;
+    --h1: 5vw;
     --h2: 3rem;
     --h3: 2rem;
 }
@@ -41,21 +40,13 @@ body {
     /* box-shadow: inset 20rem var(--base); */
 }
 
+h1 {
+    color: var(--text-or-dark);
+}
+
 @media (min-width: 650px) {
   h1 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-
     font-size: var(--h1);
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    font-weight: 700; 
-
-    color: var(--background-or-light);
-    background-color: var(--text-or-dark);
-    height: var(--h1-height);
   }
 
   main {
