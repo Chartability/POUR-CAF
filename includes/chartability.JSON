@@ -562,7 +562,7 @@
       "Test Name": "State is not easy to share and reproduce",
       "Principle": "Compromising",
       "Critical": "No",
-      "Description": "DX state is not easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share without instructions (such as with a single link, file, or saved state).",
+      "Description": "DX state is not easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share (such as with a single link, file, or saved state).",
       "Good Examples": "https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters",
       "Tools or Testing Method": "",
       "Knowledge Type": "community practices",
