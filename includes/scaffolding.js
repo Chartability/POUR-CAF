@@ -249,7 +249,7 @@ module.exports = {
             p: "<hr><br>"
         },
         { 
-            h2: "Chartability's Principles and Heuristics" 
+            h2: "The Tests" 
         },
         {
             p: `The following section contains Chartability's ${Object.keys(principles).length} principles and ${chartability.length} heuristics, ${chartability.filter(d => d.Critical === "Yes").length} of which are considered _critical_. Those new to chartability should try testing just the _critical_ heuristics first, and then move on to all of them.`
