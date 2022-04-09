@@ -158,7 +158,7 @@ User must be able to easily identify content using their senses: sight, sound, a
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Low contrast on DX elements and text. Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1.
+__Description__: Geometries and large text must have >3:1 contrast against background, Regular text must have >4.5:1.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples](https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples)
@@ -170,7 +170,7 @@ __Example tools or testing method__: https://webaim.org/resources/contrastchecke
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Myndex Research (APCA/SPCA work) has noted the limitations of the WCAG 2.0/2.1 Model (which is based off of IEC/4WD 61966-2-1). The WCAG 3.0 Standard is likely to be much better, but work is still ongoing and not likely to become standard until at least 2025 or later.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Low contrast is the most common failure (88% of audits we have performed fail this). It also has the potential to be one of the most inclusive design spaces for representing data, perhaps outside of text treatment, content, and narrative design. Myndex Research (APCA/SPCA work) has noted the limitations of the WCAG 2.0/2.1 Model (which is based off of IEC/4WD 61966-2-1). The WCAG 3.0 Standard is likely to be much better, but work is still ongoing and not likely to become standard until at least 2025 or later.</p></details>
 
 
 <br>
@@ -187,7 +187,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Information is only available visually (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all DX information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.
+__Description__: Information in the data experience must be available without visuals (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all chart information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.
 
 
 __Good example__: [https://youtu.be/w6ntxLG6MLQ](https://youtu.be/w6ntxLG6MLQ)
@@ -216,7 +216,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives](
 _This heuristic is synthesized from research_.
 
 
-__Description__: Text size too small. Text (any) must not be smaller than 12px in size.
+__Description__: Text (any) must not be smaller than 9pt/12px in size. Ideally only minor text is rendered at 9pt (Eg. axis labels) while all other text is larger.
 
 
 __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.5.8)
@@ -239,7 +239,7 @@ __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.
 _This heuristic is synthesized from standards_.
 
 
-__Description__: DX must not pose an seizure risk when static or active. DX should avoid red flashes, animating with red, or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
+__Description__: Chart must not pose a seizure risk when static or active. Chart must avoid red flashes and should avoid animating with red or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
 
 
 __Example tools or testing method__: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/
@@ -265,7 +265,7 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html](ht
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Color is the only channel for meaningful information. Categorical only: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required.
+__Description__: Color must not be the only channel for conveying meaningful or essential information. For categorical color schemes: Textures, shapes, or size (for filled elements) or dash patterns (for lines and paths) are required.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization](https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization)
@@ -282,7 +282,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.ht
 
 </div></details>
 
-### __Meaningful elements are obscured__
+### __Meaningful elements can be distinguished from each other__
 
 
 <details><summary><i>(select to read more)</i></summary><div>
@@ -291,7 +291,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.ht
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Primary DX elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the DX). Elements must have at least 1px white space between on “stacked” DXs (like stacked bars or pie DXs where elements “touch”). Text (any) must not be obscured or overlapped by any other elements.
+__Description__: Primary chart elements must not be obscured by other elements (only a failure if discriminability or separability is required to understand the chart). Adjacent elements must have at least 1px white space between them (like stacked bars or pie charts where elements “touch”). Text (any) must not be obscured or overlapped by any other elements.
 
 
 __Good example__: [https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-scatterplots#getting-a-better-look](https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-scatterplots#getting-a-better-look)
@@ -317,7 +317,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/distinguishable
 _This heuristic is synthesized from research_.
 
 
-__Description__: Color choice is not “colorblind safe” (inaccessible to people with color vision deficiencies). Use Viz Palette or Chroma to test palette. Must not have major warnings on either.
+__Description__: Color choice should be “colorblind safe” (distinguishable to people with color vision deficiencies). Use tools like Viz Palette or Chroma to test the chart's color palette. Must not have major warnings on either.
 
 
 __Good example__: [https://blog.datawrapper.de/colorblindness-part1/](https://blog.datawrapper.de/colorblindness-part1/)
@@ -329,7 +329,7 @@ __Example tools or testing method__: https://projects.susielu.com/viz-palette, h
 __Cited research__: [https://doi.org/10.1007/s10209-021-00816-0](https://doi.org/10.1007/s10209-021-00816-0)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>We use Martínez et al here. Generally it is assumed that having BOTH high contrast AND textures can resolve all CVD issues, it is still important to test color schemes against CVD simulations.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Obviously we would imagine that standards require color vision deficiency consideration and this is actually where "no use of color alone" comes from. However, while it is assumed that having both high contrast and textures can resolve all CVD issues, it is still important to test color schemes against CVD simulations. So this heuristic is considered based on research, which we use Martínez et al's heuristics research for CVD in charts here.</p></details>
 
 
 <br>
@@ -346,7 +346,7 @@ __Cited research__: [https://doi.org/10.1007/s10209-021-00816-0](https://doi.org
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Inappropriate use of spacing. Too much or too little white space on DXs with intervals (like a bar DX with thin bars and large gaps or vice a versa).
+__Description__: Use of white space and other forms of padded, structured spacing should be appropriate. Too much or too little white space on charts with intervals (like a bar chart with thin bars and large gaps or vice a versa) can cause perceivable and understandable issues.
 
 
 __Good example__: [https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9](https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9)
@@ -355,7 +355,7 @@ __Good example__: [https://towardsdatascience.com/data-visualisation-principles-
 __Cited community practice__: [https://www.calliaweb.co.uk/whitespace-not-just-a-waste-of-space](https://www.calliaweb.co.uk/whitespace-not-just-a-waste-of-space)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>While Headings and Labels are standards (2.4.6 and 2.4.10) and are considered important for Perceivable reasons, "white space" specifically is a lower-level consideration that is massively important in effective, accessible data visualization. There is a research gap in this space. Another community article: https://medium.com/nightingale/how-to-use-whitespace-the-punctuation-between-visual-elements-5ff449709759</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>While Headings and Labels are standards (2.4.6 and 2.4.10) for spacing and hierarchy reasons, "white space" specifically is a lower-level consideration that is massively important in effective, accessible data visualization. There is a research gap in this space. Another community article: https://medium.com/nightingale/how-to-use-whitespace-the-punctuation-between-visual-elements-5ff449709759</p></details>
 
 
 <br>
@@ -377,7 +377,7 @@ All controls must be error-tolerant, discoverable, and multi-modal (not just mou
 _This heuristic is synthesized from standards_.
 
 
-__Description__: DX interactivity is not available through multiple means. If DX is interactive it must also be made interactive to keyboard only and screen reader users. Test navigating to DX with keyboard, using tab and arrow keys. If DX elements are interactive with a mouse, they must also be interactive with a keyboard. Focusing should mirror hovering, selecting (enter or spacebar) should mirror clicks.
+__Description__: If chart is interactive with a mouse (or another input device) it must also be made interactive for use with a keyboard. Test navigating to chart with keyboard, using tab and arrow keys. Focusing should mirror hovering, selecting (enter or spacebar) should mirror clicks. The chart must also be tested with a touch device and screen reader, as these devices may have different experiences than a keyboard.
 
 
 __Good example__: [https://progressiveaccess.com/chemistry/](https://progressiveaccess.com/chemistry/)
@@ -386,7 +386,7 @@ __Good example__: [https://progressiveaccess.com/chemistry/](https://progressive
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>The keyboard interface (not literal keyboards but the technology they use to interface with software) is the single, most important thing to build and ensure when creating interactive content. But how do we think about touch interfaces? These technically use a join "pointer" interface with the mouse in most technology. This is an unsolved problem.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>The keyboard interface (not literal keyboards but the technology they use to interface with software) is the single, most important thing to build and ensure when creating interactive content. Screen reader operability should always be tested alongside keyboard-only testing. In addition, we also should consider touch interaction. But how do we think about touch interfaces? Touch input often follows what is called the "pointer" interface, coupling mouse and touch interactions together. But touch has a much larger hit area, causing significant accessibility issues on mobile devices. This is largely an unsolved problem.</p></details>
 
 
 <br>
@@ -403,7 +403,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exc
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Instructions not provided for interaction If DX has any interactive capabilities at all, it must be explained somewhere for users to understand. All keyboard controls must also be explained as well.
+__Description__: If chart has any interactive capabilities at all, it must be explained somewhere for users to understand. All keyboard controls must also be explained as well.
 
 
 __Good example__: [https://sf.gov/resource/2021/covid-19-data-and-reports](https://sf.gov/resource/2021/covid-19-data-and-reports)
@@ -429,7 +429,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instr
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Custom keyboard controls override screen reader settings. Any custom key controls must only apply when the DX or elements have focus (no page or app overrides).
+__Description__: Custom keyboard and touch controls must not override screen reader settings. Any custom key controls must only apply when the chart or elements have focus (no page or app overrides).
 
 
 __Good example__: [https://sf.gov/resource/2021/covid-19-data-and-reports](https://sf.gov/resource/2021/covid-19-data-and-reports)
@@ -446,7 +446,7 @@ __Cited standard__: [https://www.w3.org/TR/WCAG21/#character-key-shortcuts](http
 
 </div></details>
 
-### __Low contrast on iteractive elements__
+### __Low contrast on interactive elements__
 
 
 <details><summary><i>(select to read more)</i></summary><div>
@@ -455,13 +455,16 @@ __Cited standard__: [https://www.w3.org/TR/WCAG21/#character-key-shortcuts](http
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Contrast is low on interactive elements. All interactive elements must have at least 3:1 contrast against background. Use WebAIM Contrast Tool or dropper tool. Change in hover/focus and click/select states must not use color alone (must change stroke thickness, dash pattern, or size.)
+__Description__: When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), not only must additional indications be provided alongside the color (such as stroke thickness or dash pattern), but the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool.
+
+
+__Good example__: [https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity](https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>For now, this is separate from our Low Contrast tests because we want to be doubly sure that ALL interactive parts of a chart have strong contrast. We have even considered raising the minimum contrast for interactive elements beyond 3:1, but we need a lot more research.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into Operability primarily because while it is related to perceivability, it determines operability.</p></details>
 
 
 <br>
@@ -478,13 +481,16 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Visual keyboard focus indication is not present or is hard to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.
+__Description__: Visual keyboard focus indication must be present and easy to see. Focus indicator must have 4.5:1 contrast against background, must not be fully obscured, and must have at least a 2px border. Use WebAIM Contrast Tool or dropper tool.
+
+
+__Good example__: [https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity](https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Focus indication is one of the most important and also least-designed parts of accessible visualizations. In all of our review, we only found custom, author-provided focus indication in Visa Chart Components (which the author contributed to professionally) and with some Apple charts, when leveraging their accessibility tree. All other keyboard-navigable charts appear to use browser-provided default styles and assumptions (about enclosure, size, color, etc).</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Focus indication is one of the most important and also least-designed parts of accessible visualizations. In all of our review, we only found custom, author-provided focus indication in Visa Chart Components and with some Apple charts, when leveraging their accessibility tree. All other keyboard-navigable charts appear to use default styles and assumptions (about enclosure, size, color, etc).</p></details>
 
 
 <br>
@@ -501,7 +507,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/focus-appearanc
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Only interactive elements (that represent buttons, links, or selectable features) have a tab stop. Every DX element must NOT have its own tab stop unless the tabs are programmatically revealed (such as having a single tab stop at the root of a chart and then a way to enter further layers or sections of the chart using keyboard controls). At least one tab stop should be provided if a data table succeeds the DX and is interactive, otherwise a table should not have a tab stop.
+__Description__: Interactive elements (that represent buttons, links, or selectable features) must have a tab stop, while non-interactive elements must not have a tab stop. Every interactive chart element must NOT have its own tab stop unless the chart is small or the tabs are programmatically revealed (such as having a single tab stop at the root of a chart and then a way to enter further layers or sections of the chart using keyboard controls). At least one tab stop should be provided if a data table succeeds the chart and is interactive, otherwise a table should not have a tab stop.
+
+
+__Good example__: [https://observablehq.com/@frankelavsky/chart-component-boilerplate](https://observablehq.com/@frankelavsky/chart-component-boilerplate)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html)
@@ -524,7 +533,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/focus-order.htm
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Special actions (brushing/zooming/filtering/gesturing) that use custom or complex DX controls have no UI alternative. All complex DX controls must also be exposed for access by alternative UI controls. These controls must be clear and easy to use with a keyboard and screen reader.
+__Description__: Special actions (brushing/zooming/filtering/gesturing) that use custom or complex chart controls must have a standard UI alternative available. These controls must be clear and easy to use with a keyboard, screen reader, and touch device.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html](https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html)
@@ -547,7 +556,10 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.
+__Description__: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents. Some examples of this 
+
+
+__Good example__: [https://projects.fivethirtyeight.com/435-representatives/](https://projects.fivethirtyeight.com/435-representatives/)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
@@ -575,7 +587,7 @@ Any information or data are presented without ambiguity, with clarity, and in a 
 _This heuristic is synthesized from research_.
 
 
-__Description__: DX should explain its purpose and how to read, use, and interpret it.
+__Description__: Chart should explain its purpose and how to read, use, and interpret it.
 
 
 __Cited research__: [https://doi.org/10.1109/TVCG.2019.2917689](https://doi.org/10.1109/TVCG.2019.2917689)
@@ -598,7 +610,7 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2019.2917689](https://doi.org/
 _This heuristic is synthesized from research_.
 
 
-__Description__: No title, summary, context, or caption is provided. A title, summary, context, or caption must be provided.
+__Description__: A title, summary, context, or caption must be provided.
 
 
 __Cited research__: [https://doi.org/10.1109/TVCG.2015.2467732](https://doi.org/10.1109/TVCG.2015.2467732)
@@ -621,7 +633,7 @@ __Cited research__: [https://doi.org/10.1109/TVCG.2015.2467732](https://doi.org/
 _This heuristic is synthesized from standards_.
 
 
-__Description__: All text (and alternative text) provided should target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.
+__Description__: All text (and alternative text) provided must target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.
 
 
 __Example tools or testing method__: https://hemingwayapp.com/
@@ -647,13 +659,13 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-suppleme
 _This heuristic is synthesized from standards_.
 
 
-__Description__: If DX interacts with surroundings, this purpose and function is not clearly communicated. If DX can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text.
+__Description__: If chart can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text. Alerts or notifications must be provided than can be monitored programmatically without requiring navigation (to notify screen reader users, for example).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>This uses criteria 4.1.3, 3.3.5, and 3.3.2</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Interactive charts often affect different areas of a page or view and different areas of a page or view can often affect charts. This relationship should always be clear to the user, as well as changes to state caused by the chart or its context. This uses criteria 4.1.3, 3.3.5, and 3.3.2.</p></details>
 
 
 <br>
@@ -670,13 +682,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages
 _This heuristic is synthesized from research_.
 
 
-__Description__: Information complexity inappropriate to the task or goal of the visual. DX must not have more than one Y or X axis without first presenting two DX separately. DX must not encode along a third spatial dimension (z axis) unless the data itself is 3D (sensory, modeling, etc). DX should not contain more than 5 data categories.
+__Description__: Information complexity must be appropriate to the task or goal of the visual. Often, this is an issue when charts have too many different kinds of information encoded (note that this isn't the same as density). Chart must not have more than one Y or X axis without first presenting two chart separately. Chart must not encode along a third spatial dimension (z axis) unless the data itself is 3D (spatial, modeling, etc). Chart should not contain more than 5 data categories.
 
 
 __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf](https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Dual axis graphs in particular have been a contentious topic in visualization. We have encountered (anecdotally) arguments in favor of using them when your audience are "trained experts." We are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Dual axis graphs in particular have been a contentious topic in visualization. We have encountered arguments in favor of using them when your audience are "trained experts." However, we are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.</p></details>
 
 
 <br>
@@ -693,7 +705,7 @@ __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf]
 _This heuristic is synthesized from research_.
 
 
-__Description__: DX changes are not easy to follow. If DX’s data change is meaningful, it must employ animations for object constancy (no faster than 200ms or longer than 2s). Changes to state must be announced to screen reader users.
+__Description__: Chart changes must be easy to follow. If a chart’s data change is meaningful, it must employ animations for object constancy (no faster than 200ms or longer than 2s). Changes to state must be announced to screen reader users.
 
 
 __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.org/10.1007/978-1-4842-1928-7_2)
@@ -716,7 +728,7 @@ __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.or
 _This heuristic is synthesized from research_.
 
 
-__Description__: Metrics or variables are misleading or undefined. DX must not lie and data (and source) must be defined. Metadata, metrics, calculations, and variables must be defined.
+__Description__: Metrics or variables must not be misleading or undefined. Chart must not lie and data (and source) must be defined. Metadata, metrics, calculations, and variables must be defined.
 
 
 __Good example__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books](https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books)
@@ -742,7 +754,7 @@ __Cited research__: [NCAM, Diagram Center](NCAM, Diagram Center)
 _This heuristic is synthesized from research_.
 
 
-__Description__: Statistical confidence/uncertainty is not clearly and unambiguously communicated. If any statistical confidence interval exists, it must use clear conventions and provide textual explanation.
+__Description__: Statistical confidence/uncertainty must be clearly and unambiguously communicated. If any statistical confidence interval exists, it must use clear conventions and provide textual explanation.
 
 
 __Good example__: [https://doi.org/10.1145/3173574.3173718](https://doi.org/10.1145/3173574.3173718)
@@ -768,7 +780,7 @@ __Cited research__: [https://doi.org/10.1145/3173574.3173718](https://doi.org/10
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Axis labels are not present or unclear. Axis is truncated without a clear label. In rare cases axes may be removed (if adequate text explanation or annotation is provided). Otherwise, axis should be present and clearly labeled. Axis labels may be abbreviated but with a clear convention. Axis may only be truncated if truncation is called out with a label.
+__Description__: Axis labels should be present and clear. Axis must not be truncated without a clear label. In rare cases axes may be removed (if adequate text explanation or annotation is provided). Otherwise, axis should be present and clearly labeled. Axis labels may be abbreviated but with a clear and consistent convention.
 
 
 __Cited community practice__: [https://www.yellowfinbi.com/best-practice-guide/charts-visualizations/chart-axis-best-practices](https://www.yellowfinbi.com/best-practice-guide/charts-visualizations/chart-axis-best-practices)
@@ -791,7 +803,7 @@ __Cited community practice__: [https://www.yellowfinbi.com/best-practice-guide/c
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Inappropriate controls are provided for the task. Controls must not be irrelevant to the message, question, or task of the DX. DX scope and functionality must not be too broad. Fail if the DX can be subdivided or have irrelevant functionality removed.
+__Description__: All controls provided must not be irrelevant to the message, question, or task of the chart. Chart's interactive scope and functionality must not be too broad. The chart should if it can have irrelevant functionality removed.
 
 
 __Cited community practice__: [https://inclusivedesignprinciples.org/#add-value](https://inclusivedesignprinciples.org/#add-value)
@@ -819,7 +831,7 @@ The design is compliant with existing standards and works with the user’s comp
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Does not follow compliance standards. The DX must pass all relevant WCAG 2.1, Section 508, or equivalent requirements. (This is intended as an automatic failure until the DX can be fully evaluated.)
+__Description__: The chart must conform to appropriate compliance standards. The chart must pass all relevant WCAG 2.1, Section 508, or equivalent requirements where applicable. (This is intended as an automatic failure until the chart can be fully evaluated.)
 
 
 __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html)
@@ -842,7 +854,7 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-pa
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). DX must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
+__Description__: Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). Chart must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
 
 
 __Example tools or testing method__: https://www.deque.com/axe/devtools/
@@ -865,7 +877,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/name-role-value
 _This heuristic is synthesized from standards_.
 
 
-__Description__: DX “works best” on only one browser, device, or operating system. DX access must not be isolated to one browser, device, software, or operating system. There must be a diversity of technological means to access the DX and its information.
+__Description__: Chart access must not be isolated to one browser, device, software, or operating system. There must be a diversity of technological means to access the chart and its information and functionality.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html](https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html)
@@ -890,7 +902,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/concurrent-inpu
 _This heuristic is synthesized from research_.
 
 
-__Description__: A table is not provided that the DX is based on. A table must be provided that contains a human-readable version of the data the DX is based on. This may be excluded if the DX title, summary, context, or annotations are sufficient at conveying all relevant information contained in the DX.
+__Description__: A table must be provided that contains a human-readable version of the data the chart is based on. This may be excluded if the chart title, summary, context, or annotations are sufficient at conveying all relevant information contained in the chart.
 
 
 __Good example__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books](https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books)
@@ -916,10 +928,13 @@ __Cited research__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-p
 _This heuristic is synthesized from standards_.
 
 
-__Description__: There is not more than one process available to reach the same information. If DX is contained within or participates in complex user interface flows, such as transitions between views or states, interacting with filters, or moving between pages, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).
+__Description__: There must be more than one process available to reach the same information. If chart is contained within or participates in complex user interface flows, such as transitions between views or states, interacting with filters, or moving between pages, there must be alternative paths to reach that same state (such as with search features, parallel UI controls, etc).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html](https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html)
+
+
+<details><summary><i>Notes (select to expand)</i></summary><p>We have found that many analytical dashboards and applications suffer from their greatest strength, which is the ability to perform deep and complex analysis. These deeply exploratory experiences must have multiple ways to produce the same information. Ultimately, this is an information architecture problem. We recommend reading "Your Information Architecture is an Accessibility Problem" by Sarah Barrett: https://medium.com/known-item/your-information-architecture-is-an-accessibility-problem-cd54ae917f8e</p></details>
 
 
 <br>
@@ -936,10 +951,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Current location in a system is not easy to understand or return to. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with bread-crumbs to guide their path as well as the ability to save, reload, and navigate history.
+__Description__: Current location in a system is not easy to understand. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with breadcrumbs to guide their path as well as the ability to save, reload, and navigate history.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](https://www.w3.org/WAI/WCAG21/Understanding/location.html)
+
+
+<details><summary><i>Notes (select to expand)</i></summary><p>Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgiveable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.</p></details>
 
 
 <br>
@@ -956,7 +974,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](
 _This heuristic is synthesized from research_.
 
 
-__Description__: Interactions and operations are not forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to undo or redo their actions.
+__Description__: Interactions and operations must be forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to both undo or redo their actions.
 
 
 __Cited research__: [https://doi.org/10.1080/00140139408964958](https://doi.org/10.1080/00140139408964958)
@@ -979,7 +997,10 @@ __Cited research__: [https://doi.org/10.1080/00140139408964958](https://doi.org/
 _This heuristic is synthesized from research_.
 
 
-__Description__: DX cannot be navigated according to its data or narrative structure. The title, description, annotations, and then lower level data structures should be navigable and in that order. DX data that contains sub-grouping (like a stacked bar DX) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).
+__Description__: Chart must provide a way to be navigated according to its data or narrative structure. The title, description, annotations, and then lower level data structures should be navigable and in that order. Chart data that contains sub-grouping (like a stacked bar chart) or nesting (like a treemap or hierarchy) must provide keyboard navigation that can navigate between levels and/or laterally across levels (in a non-linear fashion). Keyboard navigation must be comparable to the data structure (including cases where the data structure is novel) as well as provide linear or tabular navigation (like in a table or list).
+
+
+__Good example__: [https://progressiveaccess.com/chemistry/](https://progressiveaccess.com/chemistry/)
 
 
 __Cited research__: [https://dl.acm.org/doi/abs/10.1145/2745555.2746667](https://dl.acm.org/doi/abs/10.1145/2745555.2746667)
@@ -1002,13 +1023,13 @@ __Cited research__: [https://dl.acm.org/doi/abs/10.1145/2745555.2746667](https:/
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Provided table is not downloadable, filterable, or sortable. If a table is provided, it must be easily downloadable or it must contain robust filter and sorting capabilities.
+__Description__: Provided table must at least be downloadable, filterable, or sortable.
 
 
 __Cited community practice__: [https://inclusive-components.design/data-tables/](https://inclusive-components.design/data-tables/)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>This particular community recommendation actually comes from the author's long history and expertise working with people with disabilities who are also data experts. In many cases, having a table that is downloadable as a CSV satisfies almost all of their concerns since Excel actually handles making the data more accessible. A CSV is a flexible material compared to a chart, meaning that it has more potential to be molded by the user into the experience that suits their needs.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>This particular community recommendation actually comes from the our experience working with people with disabilities who are also data experts. In many cases, having a table that is downloadable as a CSV satisfies many concerns since programs like Excel actually handle a lot of needs. A CSV is a low-level, flexible material compared to a chart, meaning that it has more potential to be molded by the user into the experience that suits their needs. Despite this, it is preferable to make tables that are rendered filterable (ideally with a search feature) and sortable.</p></details>
 
 
 <br>
@@ -1025,7 +1046,7 @@ __Cited community practice__: [https://inclusive-components.design/data-tables/]
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: DX state is not easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share without instructions (such as with a single link, file, or saved state).
+__Description__: Chart state must be easy to share and reproduce. If an analysis or complex interaction can produce a customized view, this view must be easy to share (such as with a single link, file, or saved state).
 
 
 __Good example__: [https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters](https://moz.com/blog/everything-you-never-wanted-to-know-about-google-maps-parameters)
@@ -1034,7 +1055,7 @@ __Good example__: [https://moz.com/blog/everything-you-never-wanted-to-know-abou
 __Cited community practice__: [https://key2consulting.com/share-power-bi-reports/](https://key2consulting.com/share-power-bi-reports/)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Believe it or not, many complex dashboards and applications with a "Branching Narrative" style of data exploration have no easy way to share their current exploration state. In professional work in the past, we have found that this is a significant access barrier when an analyst digs deep into their analysis, discovers something worth sharing, and then has no easy way of sharing it. The resulting access barrier is often placed on others. It is both significant cognitive effort as well as a usability problem. Often, an analyst has to result to using a screenshot, but then the labor and "proof in the system" of the analysis is lost! In addition, screenshots are their own accessibility risk (as they must now be made accessible). We challenge engineers to consider how incredible google maps is at maintaining a user's exact parameters in a url so that if they share a link, whoever views it sees the same thing they do. The same cognitive-labor accessibility applies to other complex data interaction spaces.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Believe it or not, many complex dashboards and applications with a branching narrative or exploratory style of data interaction have no easy way to share their current state. In professional work in the past, we have found that this is a significant access barrier when an analyst digs deep into their analysis, discovers something worth sharing, and then has no easy way of sharing it. The resulting access barrier is often placed on others. It is both significant cognitive effort as well as a usability problem. Often, an analyst has to result to using a screenshot, but then the labor and "proof in the system" of the analysis is lost! In addition, screenshots are their own accessibility risk (as they must now be made accessible). We challenge engineers to consider how incredible google maps is at maintaining a user's exact parameters in a url so that if they share a link, whoever views it sees the same thing they do. The same cognitive-labor accessibility applies to other complex data interaction spaces.</p></details>
 
 
 <br>
@@ -1056,7 +1077,7 @@ __Cited community practice__: [https://key2consulting.com/share-power-bi-reports
 _This heuristic is synthesized from research_.
 
 
-__Description__: Data is not presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, DX must be aggregated to a higher level with less elements, or DX must be divided into smaller DXs with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
+__Description__: Data must be presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, chart must be aggregated to a higher level with less elements, or chart must be divided into smaller charts with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
 
 
 __Good example__: [https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
@@ -1082,7 +1103,7 @@ __Cited research__: [https://vita.had.co.nz/papers/bigvis.pdf](https://vita.had.
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Large blocks of repeated content cannot be skipped or the user is required to perform significant labor in order to navigate to information or perform a task. The number of interactions or time required to perform a single task should be measured and compared across modalities (mouse pointer versus sequential keyboard versus search versus voice, etc).
+__Description__: Large blocks of repeated content must be skippable and interactions where the user is required to perform significant labor must not be considered essential (in content or function). The number of interactions or time required to perform a single task should be measured and compared across modalities (mouse pointer versus sequential keyboard versus search versus voice, etc).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks)
@@ -1114,7 +1135,7 @@ __Good example__: [https://www.highcharts.com/docs/accessibility/sonification](h
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>This heuristic is actually a significantly unsolved problem when it comes to the building materials we have available to us. Not only are sonifications or tactile experiences often authored in parallel (but separate) from visualizations (and tend to be a 1 to 1 representation), but we lack the semantic tools to describe relationships between parts (such as outliers, comparisons, trends, etc). This issue is related to 1.3.3 "Sensory Characteristics," but also 1.3.1 "Info and Relationships," which Brennan Young engages in a conversation on ARIA's github: https://github.com/w3c/aria/issues/991#issuecomment-668493619</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>This heuristic is actually a significantly unsolved problem when it comes to the building materials we have available to us. Not only are sonifications or tactile experiences often authored in parallel (but separate) from visualizations (and tend to be a 1 to 1 representation), but we lack the semantic tools to describe relationships between parts (such as outliers, comparisons, trends, etc). Many efforts have attempted to automate textual descriptions, but as Lundgard et al point out, this may not be possible at a meaningful level we require in order to understand higher levels of information (see: "Accessible Visualization via Natural Language Descriptions"). This issue is related to 1.3.3 "Sensory Characteristics," but also 1.3.1 "Info and Relationships," which Brennan Young engages in a conversation on ARIA's github: https://github.com/w3c/aria/issues/991#issuecomment-668493619</p></details>
 
 
 <br>
@@ -1131,10 +1152,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/info-and-relati
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Data is not formatted to be human-readable. All textual information displayed (in data labels, annotations, axes, tables, legends, etc) must be formatted to an understandable level of content (ie “human readable”). These formats must also be made into versions that can be read and parsed comfortably by screen readers. (For example: 6500000000 should be formatted to 6.5b visually and to “six point five billion” when used in screen reader labels and alt text.)
+__Description__: Data must be formatted to be human-readable. All textual information displayed (in data labels, annotations, axes, tables, legends, etc) must be formatted to an understandable level of content (ie “human readable”). These formats must also be made into versions that can be read and parsed comfortably by screen readers. (For example: 6500000000 should be formatted to 6.5b visually and to “six point five billion” when used in screen reader labels and alt text.)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html)
+
+
+<details><summary><i>Notes (select to expand)</i></summary><p>It is strange that axis labels (especially) have not had an intelligent solution built yet that can parse all the possible states of axis-related data and turn them into something usable and well-formatted for human reading. This could even have implications for well-written alt-text. We believe that this could be a low-hanging fruit for researchers or builders to explore who are looking to make a tool or library that is helpful for many others.</p></details>
 
 
 <br>
@@ -1151,7 +1175,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.h
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Use of space inappropriately handles extreme difference or similarity in the data. Both extreme statistical differences and similarities can produce unreadable DXs. If DX elements are squished into margins due to outliers or together by too much similarity, this fails. DX must automatically handle these issues or else it must be made clear to the user through annotations what is happening. If data is dynamic or producing automatic annotations is not possible, then DX must provide a way for the user to sort, divide, or filter the DX space on their own.
+__Description__: Use of space should appropriately handle extreme difference or similarity in the data. Both extreme quantitative differences and similarities can produce unreadable charts. If chart elements are squished into margins due to outliers or together by too much similarity, this fails. Chart must automatically handle these issues or else it must be made clear to the user through annotations what is happening. If data is dynamic or producing automatic annotations is not possible, then chart must provide a way for the user to sort, divide, or filter the chart space on their own.
 
 
 __Good example__: [https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9](https://towardsdatascience.com/data-visualisation-principles-part-1-white-space-text-and-colour-13f520f90ce9)
@@ -1174,10 +1198,10 @@ __Good example__: [https://towardsdatascience.com/data-visualisation-principles-
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: If DX must be built by the user, no default, opinionated state is given as a starting example. If the user is required to craft their own DX (say by combining variables in an analytic environment), a default, opinionated view of the data must be provided as a starting point.
+__Description__: If the user is required to craft their own chart (say by combining variables in an analytic environment), a default, opinionated view of the data should be provided as a starting point.
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>This particular example comes from the author's numerous professional engagements with people with disabilities in product and application testing contexts. "Build your own" analytical experiences are really difficult from a cognitive perspective, especially if this intersects with other access needs.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>This particular example comes from our experience working with people with disabilities in product and application testing contexts. "Build your own" analytical experiences are really difficult from a cognitive perspective, especially if this intersects with other access needs.</p></details>
 
 
 <br>
@@ -1199,7 +1223,7 @@ __Description__: If DX must be built by the user, no default, opinionated state 
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Styling changed by the user is not respected. DX must not interfere with or override styling changes made by the user (such as importing a custom style sheet for use in an HTML application or web site).
+__Description__: Styling changed by the user must be respected. Chart must not interfere with or override styling changes made by the user (such as importing a custom style sheet for use in an HTML application or web site).
 
 
 <details><summary><i>Notes (select to expand)</i></summary><p>See: 1.4.4, 1.4.8, 1.4.10, 1.4.12, 2.2.1, 2.2.2, 2.2.4, 2.3.3</p></details>
@@ -1219,7 +1243,7 @@ __Description__: Styling changed by the user is not respected. DX must not inter
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Longer, video-style or explanatory animations cannot be paused, stopped, and started over. Animations lasting more than 2 seconds or any looping animations must be able to be paused or stopped. Animations used to communicate transitions in the data that last more than 2 seconds must be provide a way for the user to start over.
+__Description__: Longer, video-style or explanatory animations must have pause, stop, and start controls. Specifically, animations lasting more than 2 seconds or any looping animations must be able to be paused or stopped. Animations used to communicate transitions in the state of the data that last more than 2 seconds must provide a way for the user to start over.
 
 
 __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https://inclusivedesignprinciples.org/#give-control)
@@ -1242,7 +1266,7 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Scrolling experiences cannot be adjusted or opted out of. Infinite scrolling, parallax scrolling, and “scrollytelling” experiences must come with the ability to be turned off or used optionally, with an option like “load more” or “next” in its place for keyboard only users.
+__Description__: Scrolling experiences must provide a way to be adjusted or opted out of. Infinite scrolling, parallax scrolling, and “scrollytelling” experiences must come with the ability to be turned off or used optionally, with an option like “load more” or “next” in its place for keyboard only users.
 
 
 __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https://inclusivedesignprinciples.org/#give-control)
@@ -1265,7 +1289,7 @@ __Cited standard__: [https://inclusivedesignprinciples.org/#give-control](https:
 _This heuristic is synthesized from standards_.
 
 
-__Description__: DX space cannot be zoomed. It must be possible to zoom in and out of the DX space. Text, geometries, and all elements must change size appropriate to the type of zoom used. When zooming, content should reflow and not be cut off from view in two directions. Responsive design may need to consider re-arranging the display to ensure that no meaningful information or functionality is lost during reflow.
+__Description__: Chart space must be able to be zoomed using assistive technology or equivalent. Text, geometries, and all elements must change size appropriate to the type of zoom used. When zooming, content should reflow and not be cut off from view in two directions. Responsive design may need to consider re-arranging the display to ensure that no meaningful information or functionality is lost during reflow.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/reflow.html](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
@@ -1288,7 +1312,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/reflow.html](ht
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Text spacing and font-size changed by the user is not respected. DX must not interfere with programmatic changes to font sizes or text spacing, such as importing a custom style sheet or using a browser’s build in zoom function. Font size and spacing must adjust accordingly.
+__Description__: Text spacing and font-size changed by the user must be respected. Chart must not interfere with programmatic changes to font sizes or text spacing, such as importing a custom style sheet or using a browser’s build in zoom function. Font size and spacing must adjust accordingly.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)
@@ -1311,7 +1335,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/resize-text.htm
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Design is not consistent and familiar by default. DXs must be made consistent with one another across an application or environment, including sharing default styling and settings as well as those set by the user.
+__Description__: Design must be consistent and familiar by default. Charts must be made consistent with one another across an application or environment, including sharing default styling and settings as well as those set by the user. Interaction defaults (such as keybindings or interaction patterns) should carry over between charts that perform the same task or funciton.
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html)
@@ -1331,7 +1355,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/consistent-iden
 _This heuristic is synthesized from community practices_.
 
 
-__Description__: Contrast or textures cannot be adjusted as-needed. User must be able to change contrast as needed. DX must not interfere with or override user’s independent contrast adjustments and DX must adjust accordingly to new settings. DX textures (such as those used on fills) must be able to be turned on or off according to user preference.
+__Description__: Contrast or textures must provide a way to be adjusted as-needed. Chart must not interfere with or override user’s independent contrast adjustments and chart must adjust accordingly to new settings. Chart textures (such as those used on fills) must be able to be turned on or off according to user preference.
 
 
 __Cited community practice__: [https://observablehq.com/@frankelavsky/experimental-color-scale-textures](https://observablehq.com/@frankelavsky/experimental-color-scale-textures)
@@ -1355,6 +1379,9 @@ _This heuristic is synthesized from research_.
 
 
 __Description__: The user should be able to adjust the type or presentation of difficult or complex charts into more accessible alternatives that still accomplish the same analytical task.
+
+
+__Good example__: [http://cu-visualab.org/IDD/demo/](http://cu-visualab.org/IDD/demo/)
 
 
 __Cited research__: [https://dl.acm.org/doi/pdf/10.1145/3411764.3445743](https://dl.acm.org/doi/pdf/10.1145/3411764.3445743)
