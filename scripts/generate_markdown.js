@@ -1,10 +1,10 @@
 const json2md = require("json2md")
 const fs = require('fs');
 
-const rawdata = fs.readFileSync('./includes/chartability.JSON');
+const rawdata = fs.readFileSync('includes/chartability.JSON');
 const chartability = JSON.parse(rawdata);
 
-const scaffolding = require("./includes/scaffolding")
+const scaffolding = require("../includes/scaffolding")
 const principles = scaffolding.principles
 const siteHeading = scaffolding.siteHeading
 const workbookHeading = scaffolding.workbookHeading

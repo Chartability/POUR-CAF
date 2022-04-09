@@ -4,6 +4,6 @@
     "showdown": "^2.0.3"
   },
   "scripts": {
-    "build": "node generate_markdown && node generate_html"
+    "build": "node scripts/generate_markdown && node scripts/generate_html"
   }
 }
