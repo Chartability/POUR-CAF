@@ -36,7 +36,7 @@ const outputFile = () => {
         if (err) {
             return console.log(err);
         }
-        console.log("The file was saved!");
+        console.log("index.html was saved!");
     }); 
 }
 
