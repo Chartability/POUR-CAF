@@ -248,7 +248,7 @@ __Example tools or testing method__: https://trace.umd.edu/photosensitive-epilep
 __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>We also acknowledge the work of South et al in their IEEE VIS poster where they used repeated scrolling techniques on what would otherwise be a static graphic to test for seizure risk with PEAT. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>We also acknowledge the work of South et al in their IEEE VIS poster where they used interaction techniques already built into three interactive visualizations to produce sequences capable of inducing seizures. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.</p></details>
 
 
 <br>
@@ -688,7 +688,7 @@ __Description__: Information complexity must be appropriate to the task or goal 
 __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf](https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Dual axis graphs in particular have been a contentious topic in visualization. We have encountered arguments in favor of using them when your audience are "trained experts." However, we are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Note that 5 Categories comes from meta-study on effective working memory (See Table 9: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4591021/). Dual axis graphs in particular have been a contentious topic in visualization. We have encountered arguments in favor of using them when your audience are "trained experts." However, we are not sure how someone can evaluate their own audience's level of skill in a way that also ensures accessibility. We are also unsure of the benefits afforded this small group. But in any case, the point here is to exercise significant caution and to know that using dual axis graphs is inaccessible to a broad audience (and likely even expert audiences) as it is primarily an attentive, not pre-attentive, chart design.</p></details>
 
 
 <br>
@@ -705,13 +705,13 @@ __Cited research__: [https://nces.ed.gov/FCSM/pdf/2003FCSM_BlessingBradsher.pdf]
 _This heuristic is synthesized from research_.
 
 
-__Description__: Chart changes must be easy to follow. If a chart’s data change is meaningful, it must employ animations for object constancy (no faster than 200ms or longer than 2s). Changes to state must be announced to screen reader users.
+__Description__: Chart changes must be easy to follow. If a chart’s data change is meaningful, it must employ animations for object constancy (no faster than 250ms or longer than 2s). Changes to state must be announced to screen reader users.
 
 
 __Cited research__: [https://doi.org/10.1007/978-1-4842-1928-7_2](https://doi.org/10.1007/978-1-4842-1928-7_2)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Object constancy, as Bostock refers to it, is likely understudied in visualization research and certainly hasn't been interrogated from an accessibility perspective. Much more work needs to be done here.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Object constancy, as Bostock refers to it, is likely understudied in visualization research and certainly hasn't been interrogated from an accessibility perspective. Much more work needs to be done here. We synthesized three different sources to get our range between 250ms and 2seconds: WCAG guidance says a [limit of 5 seconds for animations without controls](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html#intent), we found that 2 seconds was a more appropriate limit in our own industry user studies for the domain of visualization, and [250ms minimal limit](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4591021/) is from a meta-study on visual fixation duration in older adults.</p></details>
 
 
 <br>
