@@ -178,7 +178,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contra
 
 </div></details>
 
-### __Only visual__ _(critical)_
+### __Content is only visual__ _(critical)_
 
 
 <details><summary><i>(select to read more)</i></summary><div>
@@ -368,7 +368,7 @@ __Cited community practice__: [https://www.calliaweb.co.uk/whitespace-not-just-a
 
 All controls must be error-tolerant, discoverable, and multi-modal (not just mouse operable, but using keyboard, etc).
 
-### __Interaction output only has one input__ _(critical)_
+### __Interaction modality only has one input type__ _(critical)_
 
 
 <details><summary><i>(select to read more)</i></summary><div>

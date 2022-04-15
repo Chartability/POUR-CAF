@@ -39,7 +39,7 @@
       "Additional Category Coding": "presentation, visual"
     },
     {
-      "Test Name": "Only visual",
+      "Test Name": "Content is only visual",
       "Principle": "Perceivable",
       "Critical": "Yes",
       "Description": "Information in the chart must be available without visuals (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all chart information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.",
@@ -65,7 +65,7 @@
       "Additional Category Coding": "presentation, visual"
     },
     {
-      "Test Name": "Interaction output only has one input",
+      "Test Name": "Interaction modality only has one input type",
       "Principle": "Operable",
       "Critical": "Yes",
       "Description": "If chart is interactive with a mouse (or another input device) it must also be made interactive for use with a keyboard. Test navigating to chart with keyboard, using tab and arrow keys. Focusing should mirror hovering, selecting (enter or spacebar) should mirror clicks. The chart must also be tested with a touch device and screen reader, as these devices may have different experiences than a keyboard.",
