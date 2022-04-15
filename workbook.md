@@ -642,7 +642,7 @@ __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-suppleme
 _This heuristic is synthesized from standards_.
 
 
-__Description__: If chart can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text. Alerts or notifications must be provided than can be monitored programmatically without requiring navigation (to notify screen reader users, for example).
+__Description__: If chart can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text. Alerts or notifications must be provided that can be monitored programmatically without requiring navigation (to notify screen reader users, for example).
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)

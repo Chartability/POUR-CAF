@@ -185,7 +185,7 @@
       "Test Name": "Interactive context is not clear",
       "Principle": "Understandable",
       "Critical": "No",
-      "Description": "If chart can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text. Alerts or notifications must be provided than can be monitored programmatically without requiring navigation (to notify screen reader users, for example).",
+      "Description": "If chart can affect the logic or layout of the page or if receives data or parameters from other UI controls or logic, this must be clearly communicated in text. Alerts or notifications must be provided that can be monitored programmatically without requiring navigation (to notify screen reader users, for example).",
       "Good Examples": "",
       "Tools or Testing Method": "",
       "Knowledge Type": "standards",
