@@ -911,7 +911,7 @@ __Good example__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-pra
 __Cited research__: [https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books](https://www.wgbh.org/foundation/ncam/guidelines/effective-practices-for-description-of-science-content-within-digital-talking-books)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Supplying a table is suuported by empirical research via the Diagram Center/NCAM.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Supplying a table is supported by empirical research via the Diagram Center/NCAM but has also largely been adopted by attempts by the community wishing to bypass Section 508 difficulties making a chart or graph accessible. Tables are often used to fully replace charts, argued as if they are equivalent experiences. Chartability does not take this design position (having a table doesn't mean everything else about a chart can pass). I've discussed in the past that tables are not enough, especially from an interactivity and navigation perspective because chart structures can represent relationships that are non-tabular. See: "Information cannot be navigated according to narrative or structure." The Design System for the US Government states that while a table might provide equivalent access to the data, "a data table does not provide an equivalent narrative to a visualization," which is an important distinction. See: https://designsystem.digital.gov/components/data-visualizations/</p></details>
 
 
 <br>
