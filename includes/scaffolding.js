@@ -52,6 +52,9 @@ module.exports = {
         { 
             p: "Any issues related to this workbook should be handled by this repository. Simply open a ticket! If you have any tickets related to the Chartability Website, please take them to [that repository](https://github.com/Chartability/site)." 
         },
+        { 
+            p: "If you want to contribute, please make a clone or fork of this repo and take a look at our [CONTRIBUTING.md](./CONTRIBUTING.md) readme file." 
+        },
         {
             p: "<hr><br>"
         }
@@ -63,7 +66,8 @@ module.exports = {
         {
             p: [
                 "This workbook is intended to serve as a lightweight, high-level audit for catching data experience* design failures related to accessibility. For more on Chartability, see our home page: [https://chartability.fizz.studio/](https://chartability.fizz.studio/)",
-                "*A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system."
+                `This workbook may be <a href="https://chartability.github.io/POUR-CAF/Chartability_Worksheet_V2.docx" download>downloaded as a standalone Microsoft Word document</a>, if you would like an editable file format (this is useful when keeping a record of evaluations).`,
+                `*A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system.`
             ]
         },
         { 
