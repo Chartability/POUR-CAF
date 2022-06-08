@@ -122,7 +122,7 @@
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: Geometries and large text must have &gt;3:1 contrast against background, Regular text must have &gt;4.5:1.</p>
 <p><strong>Good example</strong>: <a href="https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples">https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples</a></p>
-<p><strong>Example tools or testing method</strong>: https://webaim.org/resources/contrastchecker/</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://webaim.org/resources/contrastchecker/">https://webaim.org/resources/contrastchecker/</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>Low contrast is the most common failure (88% of audits we have performed fail this). It also has the potential to be one of the most inclusive design spaces for representing data, perhaps outside of text treatment, content, and narrative design. Myndex Research (APCA/SPCA work) has noted the limitations of the WCAG 2.0/2.1 Model (which is based off of IEC/4WD 61966-2-1). The WCAG 3.0 Standard is likely to be much better, but work is still ongoing and not likely to become standard until at least 2025 or later.</p></details></p>
 <p><br></p>
@@ -132,7 +132,7 @@
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: Information in the chart must be available without visuals (no screen reader/braille support). At a minimum test using JAWS + Chrome, NVDA + Firefox (on Windows), VoiceOver + Safari (on Mac), and VoiceOver + Safari (on iOS). These devices must be able to access all chart information. All annotations, “visually apparent” trends or features, and all major narrative elements must be exposed to screen readers. Videos, presentations, and animations must include synchronized audio descriptions.</p>
 <p><strong>Good example</strong>: <a href="https://youtu.be/w6ntxLG6MLQ">https://youtu.be/w6ntxLG6MLQ</a></p>
-<p><strong>Example tools or testing method</strong>: https://support.apple.com/guide/voiceover/welcome/mac, https://www.nvaccess.org/, https://www.freedomscientific.com/products/software/jaws/,  https://support.google.com/accessibility/android/answer/6283677?hl=en</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://support.apple.com/guide/voiceover/welcome/mac">https://support.apple.com/guide/voiceover/welcome/mac</a>, <a href="https://www.nvaccess.org/">https://www.nvaccess.org/</a>, <a href="https://www.freedomscientific.com/products/software/jaws/">https://www.freedomscientific.com/products/software/jaws/</a>,  <a href="https://support.google.com/accessibility/android/answer/6283677?hl=en">https://support.google.com/accessibility/android/answer/6283677?hl=en</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives">https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>The heart of this test is about non-visual access via text alternatives and generally, screen readers and braille readers (in the tools section of this test) are "assistive technologies" (AT) that can determine if this has been done accessibly. Broadly the considerations here in this test may need to expand beyond just using these AT devices someday, depending on whatever technologies are used by people.</p></details></p>
 <p><br></p>
@@ -149,7 +149,7 @@
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: Chart must not pose a seizure risk when static or active. Chart must avoid red flashes and should avoid animating with red or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.</p>
-<p><strong>Example tools or testing method</strong>: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide">https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>We also acknowledge the work of South et al in their IEEE VIS poster where they used interaction techniques already built into three interactive visualizations to produce sequences capable of inducing seizures. We believe that the complex nature of interactive data experiences could merit more methodological attention for evaluating seizure risk.</p></details></p>
 <p><br></p>
@@ -177,7 +177,7 @@
 <p><em>This heuristic is synthesized from research</em>.</p>
 <p><strong>Description</strong>: Color choice should be “colorblind safe” (distinguishable to people with color vision deficiencies). Use tools like Viz Palette or Chroma to test the chart's color palette. Must not have major warnings on either.</p>
 <p><strong>Good example</strong>: <a href="https://blog.datawrapper.de/colorblindness-part1/">https://blog.datawrapper.de/colorblindness-part1/</a></p>
-<p><strong>Example tools or testing method</strong>: https://projects.susielu.com/viz-palette, https://vis4.net/palettes</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://projects.susielu.com/viz-palette">https://projects.susielu.com/viz-palette</a>, <a href="https://vis4.net/palettes">https://vis4.net/palettes</a></p>
 <p><strong>Cited research</strong>: <a href="https://doi.org/10.1007/s10209-021-00816-0">https://doi.org/10.1007/s10209-021-00816-0</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>Obviously we would imagine that standards require color vision deficiency consideration and this is actually where "no use of color alone" comes from. However, while it is assumed that having both high contrast and textures can resolve all CVD issues, it is still important to test color schemes against CVD simulations. So this heuristic is considered based on research, which we use Martínez et al's heuristics research for CVD in charts here.</p></details></p>
 <p><br></p>
@@ -286,7 +286,7 @@
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: All text (and alternative text) provided must target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.</p>
-<p><strong>Example tools or testing method</strong>: https://hemingwayapp.com/</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://hemingwayapp.com/">https://hemingwayapp.com/</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>Special circumstances may require complex terminology, but these should be explained using a reading grade level of 9 or lower.</p></details></p>
 <p><br></p>
@@ -363,7 +363,7 @@
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). Chart must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).</p>
-<p><strong>Example tools or testing method</strong>: https://www.deque.com/axe/devtools/</p>
+<p><strong>Example tools or testing method</strong>: <a href="https://www.deque.com/axe/devtools/">https://www.deque.com/axe/devtools/</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html</a></p>
 <p><br></p>
 <p></div></details></p>
