@@ -14,7 +14,7 @@ There are also supplemental input files:
 1. DOCX: custom-reference.docx
 2. HTML: footer, head, nav, script, and skip .html files
 3. HTML: style.css
-4. ALL files: scaffolding.js
+4. ALL files: [scaffolding.js](https://github.com/Chartability/POUR-CAF/blob/main/includes/scaffolding.js)
 
 And this repo turns this data file into 4 new files:
 1. [index.html](https://github.com/Chartability/POUR-CAF/blob/main/index.html)
