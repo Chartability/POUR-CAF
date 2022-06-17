@@ -17,9 +17,9 @@ There are also supplemental input files:
 4. ALL files: scaffolding.js
 
 And this repo turns this data file into 4 new files:
-1. [index.html](./blob/main/index.html)
-2. [README.md](./blob/main/README.md)
-3. [workbook.md](./blob/main/workbook.md)
+1. [index.html](https://github.com/Chartability/POUR-CAF/blob/main/index.html)
+2. [README.md](https://github.com/Chartability/POUR-CAF/blob/main/README.md)
+3. [workbook.md](https://github.com/Chartability/POUR-CAF/blob/main/workbook.md)
 4. [Chartability_Worksheet_V2.docx](https://chartability.github.io/POUR-CAF/Chartability_Worksheet_V2.docx)
 
 Files are automatically generated using the command: `yarn build` or `node run build` (you will need node/yarn to build our files as well as pandoc to generate a microsoft word doc).
