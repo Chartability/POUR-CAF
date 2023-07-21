@@ -207,7 +207,7 @@ __Description__: Text (any) must not be smaller than 9pt/12px in size. Ideally o
 __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.5.8)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with "size" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: https://accessibility.psu.edu/fontsizehtml/ </p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with "size" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: <a href="https://accessibility.psu.edu/fontsizehtml/">https://accessibility.psu.edu/fontsizehtml/</a>.</p></details>
 
 
 <br>
