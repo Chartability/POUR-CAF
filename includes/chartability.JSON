@@ -60,7 +60,7 @@
       "Tools or Testing Method": "",
       "Knowledge Type": "research",
       "Resources": "https://doi.org/10.1167/17.5.8",
-      "Limitations and Caveats": "Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with \"size\" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: https://accessibility.psu.edu/fontsizehtml/ ",
+      "Limitations and Caveats": "Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with \"size\" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: [https://accessibility.psu.edu/fontsizehtml/](https://accessibility.psu.edu/fontsizehtml/)",
       "POUR Coding": "perceivable",
       "Additional Category Coding": "presentation, visual"
     },
