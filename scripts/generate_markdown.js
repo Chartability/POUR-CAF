@@ -22,12 +22,11 @@ chartability.forEach(d => {
     if (d["Good Examples"]) {
         p.push({"p": `__Good example__: [${d["Good Examples"]}](${d["Good Examples"]})`})
     }
-    if (d["Tools or Testing Method"]) {
-        if (d["Tools or Testing Method"].length === 1) {
-            p.push({"p": `__Example tool or testing method__: [${d["Tools or Testing Method"]}](${d["Tools or Testing Method"]})`})
-        } else {
-            p.push({"p": `__Example tools or testing method__: ${d["Tools or Testing Method"]}`})
-        }
+
+    const tools = d["Tools or Testing Method"] // tools may be empty string
+    if (tools !== "") {
+        const mdLinks = tools.split(",").map(t => t.trim()).map(t => '[' + t + ']' + '(' + t + ')')
+        p.push({"p": `__Example tools or testing method__: ${mdLinks.join(", ")}`})
     }
     if (d["Resources"]) {
         const nonPlural = d["Knowledge Type"].substring(d["Knowledge Type"].length-1) === 's' ? d["Knowledge Type"].substring(0,d["Knowledge Type"].length-1) : d["Knowledge Type"]
