@@ -207,7 +207,7 @@ __Description__: Text (any) must not be smaller than 9pt/12px in size. Ideally o
 __Cited research__: [https://doi.org/10.1167/17.5.8](https://doi.org/10.1167/17.5.8)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with "size" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: https://accessibility.psu.edu/fontsizehtml/ </p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Testing for font size is highly complex and difficult if it isn't stored in data/metadata or known by the designer/developer. This is a difficult metric to measure and more tooling is needed to help with this. In addition, WCAG 2.1 has no requirement for text size. Ongoing work for 3.0 (thanks to Myndex) is integrating contrast evaluation with "size" (roughly approximating perceptial angle), since plenty of research has shown that size affects discriminability. But as we mentioned in the contrast limitations, this work is ongoing and non-standard. For more community resources, see: [https://accessibility.psu.edu/fontsizehtml/](https://accessibility.psu.edu/fontsizehtml/)</p></details>
 
 
 <br>
@@ -1062,7 +1062,7 @@ __Cited community practice__: [https://key2consulting.com/share-power-bi-reports
 _This heuristic is synthesized from research_.
 
 
-__Description__: Data must be presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, chart must be aggregated to a higher level with less elements, or chart must be divided into smaller charts with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
+__Description__: Data must be presented at an appropriate density. If too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, chart must be aggregated to a higher level with less elements, or chart must be divided into smaller charts with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).
 
 
 __Good example__: [https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
