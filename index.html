@@ -53,6 +53,7 @@
 <h2 id="failures">Failures</h2>
 <p>Unlike a compliance audit (which determines adherence to regulatory guidelines), Chartability is meant to identify design failures. Generally, Chartability approaches accessibility as a scale rather than a state: how accessible a DX is is determined by how few failures it contains. It should be assumed that even the absolute best DX may contain several failures, even after remediation. Note that Chartability should never be used in place of a compliance audit but always in tandem with it.</p>
 <p>Chartability’s insistence on a scale (instead of a state) of accessibility requires that designers and creators consider their choices carefully: they must be willing to argue that lack of scope, time, or research or perhaps a unique consideration led to a given failure. No failure should be left unconsidered.</p>
+<p>An important note about language: Chartability's tests are framed in negative language, like "Target pointer interaction size is too small." This is intentional. Chartability is not meant to be used to "pass" accessibility requirements. You cannot "pass" Chartability 100%. Rather, Chartability is simply framed as a tool that helps people catch known barriers, or "failures." It is possible to have 0 failures in Chartability but still have accessibility issues. This is because the work of accessibility never ends!</p>
 <h2 id="outcomes">Outcomes</h2>
 <p>Chartability is a set of heuristic tests that not only highlights failures for remediation, but also encourages healthy design critique and critical design discourse related to accessibility. Because excellence in accessibility is never a finished state, the outcome of a Chartability audit is less about arriving at accessibility and more about working towards an accessible experience.</p>
 <p>A good audit is not about measuring sucess: a good audit finds evidence of risk and failure.</p>
@@ -223,10 +224,10 @@
 <h3 id="__lowcontrastoninteractiveelements__"><strong>Low contrast on interactive elements</strong></h3>
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
-<p><strong>Description</strong>: When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), not only must additional indications be provided alongside the color (such as stroke thickness or dash pattern), but the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool.</p>
+<p><strong>Description</strong>: When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool. However, contrast color difference is not required if additional indications are provided, such as stroke thickness change (of at least 2px difference), a dash pattern is used, a marker is added, or other high-contrast technique. Ideally, both color and non-color strategies are used together (redundantly).</p>
 <p><strong>Good example</strong>: <a href="https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity">https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity</a></p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html</a></p>
-<p><details><summary><i>Notes (select to expand)</i></summary><p>State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into Operability primarily because while it is related to perceivability, it determines operability.</p></details></p>
+<p><details><summary><i>Notes (select to expand)</i></summary><p>State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into operability primarily because while it is related to perceivability, it determines operability.</p></details></p>
 <p><br></p>
 <p></div></details></p>
 <h3 id="__keyboardfocusindicatormissingobscuredorlowcontrast__"><strong>Keyboard focus indicator missing, obscured, or low contrast</strong></h3>
@@ -258,9 +259,9 @@
 <h3 id="__targetpointerinteractionsizeistoosmall__"><strong>Target pointer interaction size is too small</strong></h3>
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
-<p><strong>Description</strong>: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents. Some examples of this </p>
+<p><strong>Description</strong>: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 24px x 24px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.</p>
 <p><strong>Good example</strong>: <a href="https://projects.fivethirtyeight.com/435-representatives/">https://projects.fivethirtyeight.com/435-representatives/</a></p>
-<p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/Understanding/target-size.html">https://www.w3.org/WAI/WCAG21/Understanding/target-size.html</a></p>
+<p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html">https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html</a></p>
 <p><details><summary><i>Notes (select to expand)</i></summary><p>This is quite a hard requirement for accessibility in visualization because the spatial dimensions of visual marks are often mapped to variables. We argue that alternatives should be provided such as text labels that satisfy minimum size, accompanying data tables or search functions, alternative navigation and input (such as with a keyboard or non-precise touch input), or features like zooming or filtering. While we applaud efforts such as the use of voronoi diagrams on top of visualizations, we believe that these still pose significant operability barriers for people with motor impairments.</p></details></p>
 <p><br></p>
 <p></div></details></p>
@@ -393,15 +394,15 @@
 <p><details><summary><i>Notes (select to expand)</i></summary><p>We have found that many analytical dashboards and applications suffer from their greatest strength, which is the ability to perform deep and complex analysis. These deeply exploratory experiences must have multiple ways to produce the same information. Ultimately, this is an information architecture problem. We recommend reading "Your Information Architecture is an Accessibility Problem" by Sarah Barrett: https://medium.com/known-item/your-information-architecture-is-an-accessibility-problem-cd54ae917f8e</p></details></p>
 <p><br></p>
 <p></div></details></p>
-<h3 id="__locationandhistoryisclear__"><strong>Location and history is clear</strong></h3>
+<h3 id="__locationandhistoryisunclear__"><strong>Location and history is unclear</strong></h3>
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from standards</em>.</p>
 <p><strong>Description</strong>: Current location in a system is not easy to understand. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with breadcrumbs to guide their path as well as the ability to save, reload, and navigate history.</p>
 <p><strong>Cited standard</strong>: <a href="https://www.w3.org/WAI/WCAG21/Understanding/location.html">https://www.w3.org/WAI/WCAG21/Understanding/location.html</a></p>
-<p><details><summary><i>Notes (select to expand)</i></summary><p>Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgiveable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.</p></details></p>
+<p><details><summary><i>Notes (select to expand)</i></summary><p>Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgivable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.</p></details></p>
 <p><br></p>
 <p></div></details></p>
-<h3 id="__interactionsarenotforgiveable__"><strong>Interactions are not forgiveable</strong></h3>
+<h3 id="__interactionsarenotforgivable__"><strong>Interactions are not forgivable</strong></h3>
 <p><details><summary><i>(select to read more)</i></summary><div></p>
 <p><em>This heuristic is synthesized from research</em>.</p>
 <p><strong>Description</strong>: Interactions and operations must be forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to both undo or redo their actions.</p>

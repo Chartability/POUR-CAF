@@ -367,12 +367,12 @@
       "Test Name": "Low contrast on interactive elements",
       "Principle": "Operable",
       "Critical": "No",
-      "Description": "When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), not only must additional indications be provided alongside the color (such as stroke thickness or dash pattern), but the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool.",
+      "Description": "When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool. However, contrast color difference is not required if additional indications are provided, such as stroke thickness change (of at least 2px difference), a dash pattern is used, a marker is added, or other high-contrast technique. Ideally, both color and non-color strategies are used together (redundantly).",
       "Good Examples": "https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity",
       "Tools or Testing Method": "",
       "Knowledge Type": "standards",
       "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
-      "Limitations and Caveats": "State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into Operability primarily because while it is related to perceivability, it determines operability.",
+      "Limitations and Caveats": "State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into operability primarily because while it is related to perceivability, it determines operability.",
       "POUR Coding": "perceivable, operable",
       "Additional Category Coding": "presentation"
     },
@@ -507,7 +507,7 @@
       "Additional Category Coding": "alternative, tolerant"
     },
     {
-      "Test Name": "Location and history is clear",
+      "Test Name": "Location and history is unclear",
       "Principle": "Compromising",
       "Critical": "No",
       "Description": "Current location in a system is not easy to understand. Similar to “more than one process” and “easy to share and reproduce,” current view and state of visualization (in a complex environment like a dashboard or app) must provide the user with breadcrumbs to guide their path as well as the ability to save, reload, and navigate history.",
@@ -515,12 +515,12 @@
       "Tools or Testing Method": "",
       "Knowledge Type": "standards",
       "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/location.html",
-      "Limitations and Caveats": "Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgiveable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.",
+      "Limitations and Caveats": "Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgivable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.",
       "POUR Coding": "understandable, operable, robust",
       "Additional Category Coding": "tolerant, transparent, empowering"
     },
     {
-      "Test Name": "Interactions are not forgiveable",
+      "Test Name": "Interactions are not forgivable",
       "Principle": "Compromising",
       "Critical": "No",
       "Description": "Interactions and operations must be forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to both undo or redo their actions.",
@@ -627,11 +627,11 @@
       "Test Name": "Target pointer interaction size is too small",
       "Principle": "Operable",
       "Critical": "No",
-      "Description": "Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents. Some examples of this ",
+      "Description": "Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 24px x 24px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.",
       "Good Examples": "https://projects.fivethirtyeight.com/435-representatives/",
       "Tools or Testing Method": "",
       "Knowledge Type": "standards",
-      "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
+      "Resources": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
       "Limitations and Caveats": "This is quite a hard requirement for accessibility in visualization because the spatial dimensions of visual marks are often mapped to variables. We argue that alternatives should be provided such as text labels that satisfy minimum size, accompanying data tables or search functions, alternative navigation and input (such as with a keyboard or non-precise touch input), or features like zooming or filtering. While we applaud efforts such as the use of voronoi diagrams on top of visualizations, we believe that these still pose significant operability barriers for people with motor impairments.",
       "POUR Coding": "operable, perceivable",
       "Additional Category Coding": ""
