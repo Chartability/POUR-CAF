@@ -515,12 +515,12 @@
       "Tools or Testing Method": "",
       "Knowledge Type": "standards",
       "Resources": "https://www.w3.org/WAI/WCAG21/Understanding/location.html",
-      "Limitations and Caveats": "Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgiveable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.",
+      "Limitations and Caveats": "Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgivable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.",
       "POUR Coding": "understandable, operable, robust",
       "Additional Category Coding": "tolerant, transparent, empowering"
     },
     {
-      "Test Name": "Interactions are not forgiveable",
+      "Test Name": "Interactions are not forgivable",
       "Principle": "Compromising",
       "Critical": "No",
       "Description": "Interactions and operations must be forgivable. When the visualization is interactive or has the ability to perform a task, the user must be able to both undo or redo their actions.",
