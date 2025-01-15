@@ -120,7 +120,7 @@
       "Test Name": "Data density is inappropriate",
       "Principle": "Assistive",
       "Critical": "Yes",
-      "Description": "Data must be presented at an appropriate density. If more too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, chart must be aggregated to a higher level with less elements, or chart must be divided into smaller charts with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).",
+      "Description": "Data must be presented at an appropriate density. If too many elements are competing for the same space (approximate limit is based on cognitive load): clustering or patterns (or lack of) must be explained, chart must be aggregated to a higher level with less elements, or chart must be divided into smaller charts with less data. Visual density should serve a purpose, such as retaining the data's signal (when appropriate).",
       "Good Examples": "https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/",
       "Tools or Testing Method": "",
       "Knowledge Type": "research",

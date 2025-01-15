@@ -169,7 +169,7 @@ __Description__: Geometries and large text must have >3:1 contrast against backg
 __Good example__: [https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples](https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples)
 
 
-__Example tools or testing method__: https://webaim.org/resources/contrastchecker/
+__Example tools or testing method__: [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
@@ -198,7 +198,7 @@ __Description__: Information in the chart must be available without visuals (no 
 __Good example__: [https://youtu.be/w6ntxLG6MLQ](https://youtu.be/w6ntxLG6MLQ)
 
 
-__Example tools or testing method__: https://support.apple.com/guide/voiceover/welcome/mac, https://www.nvaccess.org/, https://www.freedomscientific.com/products/software/jaws/,  https://support.google.com/accessibility/android/answer/6283677?hl=en
+__Example tools or testing method__: [https://support.apple.com/guide/voiceover/welcome/mac](https://support.apple.com/guide/voiceover/welcome/mac), [https://www.nvaccess.org/](https://www.nvaccess.org/), [https://www.freedomscientific.com/products/software/jaws/](https://www.freedomscientific.com/products/software/jaws/), [https://support.google.com/accessibility/android/answer/6283677?hl=en](https://support.google.com/accessibility/android/answer/6283677?hl=en)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives](https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives)
@@ -247,7 +247,7 @@ _This heuristic is synthesized from standards_.
 __Description__: Chart must not pose a seizure risk when static or active. Chart must avoid red flashes and should avoid animating with red or have a significant portion of the display area use the color red. Tools like PEAT may be used to assess risk.
 
 
-__Example tools or testing method__: https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/
+__Example tools or testing method__: [https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/](https://trace.umd.edu/photosensitive-epilepsy-analysis-tool-peat-user-guide/)
 
 
 __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html)
@@ -328,7 +328,7 @@ __Description__: Color choice should be “colorblind safe” (distinguishable t
 __Good example__: [https://blog.datawrapper.de/colorblindness-part1/](https://blog.datawrapper.de/colorblindness-part1/)
 
 
-__Example tools or testing method__: https://projects.susielu.com/viz-palette, https://vis4.net/palettes
+__Example tools or testing method__: [https://projects.susielu.com/viz-palette](https://projects.susielu.com/viz-palette), [https://vis4.net/palettes](https://vis4.net/palettes)
 
 
 __Cited research__: [https://doi.org/10.1007/s10209-021-00816-0](https://doi.org/10.1007/s10209-021-00816-0)
@@ -641,7 +641,7 @@ _This heuristic is synthesized from standards_.
 __Description__: All text (and alternative text) provided must target a reading grade level of 9 or lower. Tools may be used to automate reading level estimation.
 
 
-__Example tools or testing method__: https://hemingwayapp.com/
+__Example tools or testing method__: [https://hemingwayapp.com/](https://hemingwayapp.com/)
 
 
 __Cited standard__: [https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
@@ -862,7 +862,7 @@ _This heuristic is synthesized from standards_.
 __Description__: Semantically invalid use of document elements (if it functions like a button, but it is semantically other than a button, etc). Chart must be semantically valid according to modern standards. Initial testing (on the web) may be automated using any combination of: Axe-core, Wave, HTML Codesniffer, Accessibility Insights, or W3C Markup Validation but may only pass once a screen reader test has also verified the experience (see: Perceivable Failures for screen reader info).
 
 
-__Example tools or testing method__: https://www.deque.com/axe/devtools/
+__Example tools or testing method__: [https://www.deque.com/axe/devtools/](https://www.deque.com/axe/devtools/)
 
 
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html)
