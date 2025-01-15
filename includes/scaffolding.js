@@ -85,7 +85,8 @@ module.exports = {
         {
             p: [
                 "Unlike a compliance audit (which determines adherence to regulatory guidelines), Chartability is meant to identify design failures. Generally, Chartability approaches accessibility as a scale rather than a state: how accessible a DX is is determined by how few failures it contains. It should be assumed that even the absolute best DX may contain several failures, even after remediation. Note that Chartability should never be used in place of a compliance audit but always in tandem with it.",
-                "Chartability’s insistence on a scale (instead of a state) of accessibility requires that designers and creators consider their choices carefully: they must be willing to argue that lack of scope, time, or research or perhaps a unique consideration led to a given failure. No failure should be left unconsidered."
+                "Chartability’s insistence on a scale (instead of a state) of accessibility requires that designers and creators consider their choices carefully: they must be willing to argue that lack of scope, time, or research or perhaps a unique consideration led to a given failure. No failure should be left unconsidered.",
+                "An important note about language: Chartability's tests are framed in negative language, like \"Target pointer interaction size is too small.\" This is intentional. Chartability is not meant to be used to \"pass\" accessibility requirements. You cannot \"pass\" Chartability 100%. Rather, Chartability is simply framed as a tool that helps people catch known barriers, or \"failures.\" It is possible to have 0 failures in Chartability but still have accessibility issues. This is because the work of accessibility never ends!"
             ]
         },
         { 
@@ -118,8 +119,7 @@ module.exports = {
             p: [
                 "There are a lot of different ways to perform an audit, and so there are also many different ways to use Chartability. Sometimes an audit is as casual as checking your work while you do it. And other times it is a big affair that involves teams of specialists and lawyers.",
                 "Realistically, while a highly trained auditor may be able to casually evaluate an artifact in as little as 30 minutes or even hold heuristics in mind as they are doing their own creative work, those new to auditing may take anywhere between 2 and 8 hours to complete a full pass of Chartability. Professional audits, which can take weeks or months, often include multiple auditors and provide rigorous documentation and detailed recommendations for remediation, typically in the form of a report. Chartability is meant to serve both quick pass and deep dive styles of audits, so users are expected to leverage it as they see fit.",
-                "Below we give an example of what might be a fast pass audit, using Chartability, in 5 steps. This isn't super thorough, but a good way to quickly check a handful of access barriers quickly.",
-                "An important note about language: Chartability's tests are framed in negative language, like \"Target pointer interaction size is too small.\" This is intentional. Chartability is not meant to be used to \"pass\" accessibility requirements. You cannot \"pass\" Chartability 100%. Rather, Chartability is simply framed as a tool that helps people catch known barriers, or \"failures.\" It is possible to have 0 failures in Chartability but still have accessibility issues. This is because the work of accessibility never ends! (Although you should be proud if you do manage to have 0 detected failures, because that is quite an accomplishment.)"
+                "Below we give an example of what might be a fast pass audit, using Chartability, in 5 steps. This isn't super thorough, but a good way to quickly check a handful of access barriers quickly."
             ]
         },
         { 
