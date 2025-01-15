@@ -21,6 +21,8 @@ Unlike a compliance audit (which determines adherence to regulatory guidelines),
 
 Chartability’s insistence on a scale (instead of a state) of accessibility requires that designers and creators consider their choices carefully: they must be willing to argue that lack of scope, time, or research or perhaps a unique consideration led to a given failure. No failure should be left unconsidered.
 
+An important note about language: Chartability's tests are framed in negative language, like "Target pointer interaction size is too small." This is intentional. Chartability is not meant to be used to "pass" accessibility requirements. You cannot "pass" Chartability 100%. Rather, Chartability is simply framed as a tool that helps people catch known barriers, or "failures." It is possible to have 0 failures in Chartability but still have accessibility issues. This is because the work of accessibility never ends!
+
 ## Outcomes
 
 
@@ -440,7 +442,7 @@ __Cited standard__: [https://www.w3.org/TR/WCAG21/#character-key-shortcuts](http
 _This heuristic is synthesized from standards_.
 
 
-__Description__: When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), not only must additional indications be provided alongside the color (such as stroke thickness or dash pattern), but the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool.
+__Description__: When interactive elements use color to communicate a change of state (like changing opacity, saturation, or hue on hover, focus, or selection), the new state should have at least 3:1 contrast against its previous state. Use WebAIM Contrast Tool or dropper tool. However, contrast color difference is not required if additional indications are provided, such as stroke thickness change (of at least 2px difference), a dash pattern is used, a marker is added, or other high-contrast technique. Ideally, both color and non-color strategies are used together (redundantly).
 
 
 __Good example__: [https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity](https://github.com/visa/visa-chart-components/tree/main/packages/utils#interactivity)
@@ -449,7 +451,7 @@ __Good example__: [https://github.com/visa/visa-chart-components/tree/main/packa
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into Operability primarily because while it is related to perceivability, it determines operability.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>State change for interactivity is important to communicte clearly, arguably imperative for something to be operable. This is a good example of a strong intersection between Perceivable and Operable principles. We put this heuristic into operability primarily because while it is related to perceivability, it determines operability.</p></details>
 
 
 <br>
@@ -541,13 +543,13 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 _This heuristic is synthesized from standards_.
 
 
-__Description__: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 44px x 44px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents. Some examples of this 
+__Description__: Interactive elements that can be targeted by a mouse or touch pointer interaction should have a minimum size of at least 24px x 24px. If elements are scaled according to data values (such as a scatterplot or otherwise), then alternative means must be provided to select, activate, or otherwise interact with the information or task that the element represents.
 
 
 __Good example__: [https://projects.fivethirtyeight.com/435-representatives/](https://projects.fivethirtyeight.com/435-representatives/)
 
 
-__Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
+__Cited standard__: [https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
 
 
 <details><summary><i>Notes (select to expand)</i></summary><p>This is quite a hard requirement for accessibility in visualization because the spatial dimensions of visual marks are often mapped to variables. We argue that alternatives should be provided such as text labels that satisfy minimum size, accompanying data tables or search functions, alternative navigation and input (such as with a keyboard or non-precise touch input), or features like zooming or filtering. While we applaud efforts such as the use of voronoi diagrams on top of visualizations, we believe that these still pose significant operability barriers for people with motor impairments.</p></details>
@@ -927,7 +929,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.h
 
 </div></details>
 
-### __Location and history is clear__
+### __Location and history is unclear__
 
 
 <details><summary><i>(select to read more)</i></summary><div>
@@ -942,7 +944,7 @@ __Description__: Current location in a system is not easy to understand. Similar
 __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](https://www.w3.org/WAI/WCAG21/Understanding/location.html)
 
 
-<details><summary><i>Notes (select to expand)</i></summary><p>Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgiveable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.</p></details>
+<details><summary><i>Notes (select to expand)</i></summary><p>Breadcrumbs, history, and the ability to save and load all participate in systems that are robust, forgivable, error-tolerant, and kind to the user. Coincidentally, they are also all more accessible for cognitive reasons, especially when these features are communicated.</p></details>
 
 
 <br>
@@ -950,7 +952,7 @@ __Cited standard__: [https://www.w3.org/WAI/WCAG21/Understanding/location.html](
 
 </div></details>
 
-### __Interactions are not forgiveable__
+### __Interactions are not forgivable__
 
 
 <details><summary><i>(select to read more)</i></summary><div>
