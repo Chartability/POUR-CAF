@@ -200,7 +200,7 @@ module.exports = {
             blockquote: "Figure 5: An interactive chart displaying only \"Image\" as semantic information with no feedback provided on selection. The robust semantics given to a screen reader, \"toggle button\" (middle) as well instant feedback, \"selected\" (right) are considered proper semantics for an interactive experience."
         },
         {
-            p: "Next, all valuable information and functionality in a data experience should tested whether it is available to a screen reader. This includes the individual variables about a mark as well as whether that mark is interactive (Figure 5), whether status updates that reflect context change provide alerts (Figure 3), and whether summary textual information is provided about the whole chart (Figure 4) as well as statistically and visually important areas of that chart (Figure 7)."
+            p: "Next, all valuable, non-textual information and functionality in a data experience should be available to a screen reader. This includes the individual variables about a mark as well as whether that mark is interactive (Figure 5), whether status updates that reflect context change provide alerts (Figure 3), and whether summary textual information is provided about the whole chart (Figure 4) as well as statistically and visually important areas of that chart (Figure 7)."
         },
         { 
             img: { 
