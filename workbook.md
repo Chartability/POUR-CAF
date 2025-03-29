@@ -5,7 +5,7 @@ This workbook is intended to serve as a lightweight, high-level audit for catchi
 
 This workbook may be <a href="https://chartability.github.io/POUR-CAF/Chartability_Worksheet_V2.docx" download>downloaded as a standalone Microsoft Word document</a>, if you would like an editable file format (this is useful when keeping a record of evaluations).
 
-*A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system.
+*A data experience (DX) could refer to a data visualization such as a chart, graph, or plot, a “bespoke” (highly customized) graphic based on data, a model, or an algorithm, or a data driven interface or system. If a human has an experience with data using any of their senses, then it counts as a data experience. We intentionally use an inclusive term.
 
 ## Method
 
